@@ -1,0 +1,573 @@
+.project24 {
+	background:url('../img/project24.png') no-repeat top left; display:inline-block;
+}
+.project24.addressbook {
+	background-position:0 -0px;
+	width: 24px;
+	height: 24px;
+}
+.project24.alert {
+	background-position:0 -24px;
+	width: 24px;
+	height: 24px;
+}
+.project24.applications {
+	background-position:0 -48px;
+	width: 24px;
+	height: 24px;
+}
+.project24.battery {
+	background-position:0 -72px;
+	width: 24px;
+	height: 24px;
+}
+.project24.batterydisplay {
+	background-position:0 -96px;
+	width: 24px;
+	height: 24px;
+}
+.project24.batterydisplay_charging {
+	background-position:0 -120px;
+	width: 24px;
+	height: 24px;
+}
+.project24.batterydisplay_full {
+	background-position:0 -144px;
+	width: 24px;
+	height: 24px;
+}
+.project24.batterydisplay_low {
+	background-position:0 -168px;
+	width: 24px;
+	height: 24px;
+}
+.project24.bell {
+	background-position:0 -192px;
+	width: 24px;
+	height: 24px;
+}
+.project24.book {
+	background-position:0 -216px;
+	width: 24px;
+	height: 24px;
+}
+.project24.book_bookmark {
+	background-position:0 -240px;
+	width: 24px;
+	height: 24px;
+}
+.project24.box {
+	background-position:0 -264px;
+	width: 24px;
+	height: 24px;
+}
+.project24.box_thissideup {
+	background-position:0 -288px;
+	width: 24px;
+	height: 24px;
+}
+.project24.burn {
+	background-position:0 -312px;
+	width: 24px;
+	height: 24px;
+}
+.project24.calendar_blue {
+	background-position:0 -336px;
+	width: 24px;
+	height: 24px;
+}
+.project24.calendar_dayview {
+	background-position:0 -360px;
+	width: 24px;
+	height: 24px;
+}
+.project24.calendar_monthview {
+	background-position:0 -384px;
+	width: 24px;
+	height: 24px;
+}
+.project24.chalkboard {
+	background-position:0 -408px;
+	width: 24px;
+	height: 24px;
+}
+.project24.chalkboard_empty {
+	background-position:0 -432px;
+	width: 24px;
+	height: 24px;
+}
+.project24.chip {
+	background-position:0 -456px;
+	width: 24px;
+	height: 24px;
+}
+.project24.clipboard_empty {
+	background-position:0 -480px;
+	width: 24px;
+	height: 24px;
+}
+.project24.clipboard_torn {
+	background-position:0 -504px;
+	width: 24px;
+	height: 24px;
+}
+.project24.colorwheel {
+	background-position:0 -528px;
+	width: 24px;
+	height: 24px;
+}
+.project24.contactcard {
+	background-position:0 -552px;
+	width: 24px;
+	height: 24px;
+}
+.project24.dashboard {
+	background-position:0 -576px;
+	width: 24px;
+	height: 24px;
+}
+.project24.delete {
+	background-position:0 -600px;
+	width: 24px;
+	height: 24px;
+}
+.project24.design {
+	background-position:0 -624px;
+	width: 24px;
+	height: 24px;
+}
+.project24.design_blueprint {
+	background-position:0 -648px;
+	width: 24px;
+	height: 24px;
+}
+.project24.dictionary {
+	background-position:0 -672px;
+	width: 24px;
+	height: 24px;
+}
+.project24.disk_harddisk {
+	background-position:0 -696px;
+	width: 24px;
+	height: 24px;
+}
+.project24.e-mail {
+	background-position:0 -720px;
+	width: 24px;
+	height: 24px;
+}
+.project24.envelope {
+	background-position:0 -744px;
+	width: 24px;
+	height: 24px;
+}
+.project24.envelope_airmail {
+	background-position:0 -768px;
+	width: 24px;
+	height: 24px;
+}
+.project24.error {
+	background-position:0 -792px;
+	width: 24px;
+	height: 24px;
+}
+.project24.facebook {
+	background-position:0 -816px;
+	width: 24px;
+	height: 24px;
+}
+.project24.file {
+	background-position:0 -840px;
+	width: 24px;
+	height: 24px;
+}
+.project24.filetype_rss {
+	background-position:0 -864px;
+	width: 24px;
+	height: 24px;
+}
+.project24.filetype_rss_orange {
+	background-position:0 -888px;
+	width: 24px;
+	height: 24px;
+}
+.project24.gear {
+	background-position:0 -912px;
+	width: 24px;
+	height: 24px;
+}
+.project24.get-info {
+	background-position:0 -936px;
+	width: 24px;
+	height: 24px;
+}
+.project24.harddisk_installation {
+	background-position:0 -960px;
+	width: 24px;
+	height: 24px;
+}
+.project24.house {
+	background-position:0 -984px;
+	width: 24px;
+	height: 24px;
+}
+.project24.ical {
+	background-position:0 -1008px;
+	width: 24px;
+	height: 24px;
+}
+.project24.instantmessaging {
+	background-position:0 -1032px;
+	width: 24px;
+	height: 24px;
+}
+.project24.lock {
+	background-position:0 -1056px;
+	width: 24px;
+	height: 24px;
+}
+.project24.lock_unlocked {
+	background-position:0 -1080px;
+	width: 24px;
+	height: 24px;
+}
+.project24.magnifyingglass {
+	background-position:0 -1104px;
+	width: 24px;
+	height: 24px;
+}
+.project24.money {
+	background-position:0 -1128px;
+	width: 24px;
+	height: 24px;
+}
+.project24.money_glowing {
+	background-position:0 -1152px;
+	width: 24px;
+	height: 24px;
+}
+.project24.notification {
+	background-position:0 -1176px;
+	width: 24px;
+	height: 24px;
+}
+.project24.panel {
+	background-position:0 -1200px;
+	width: 24px;
+	height: 24px;
+}
+.project24.panel_colors {
+	background-position:0 -1224px;
+	width: 24px;
+	height: 24px;
+}
+.project24.panel_find {
+	background-position:0 -1248px;
+	width: 24px;
+	height: 24px;
+}
+.project24.panel_inspector {
+	background-position:0 -1272px;
+	width: 24px;
+	height: 24px;
+}
+.project24.pen {
+	background-position:0 -1296px;
+	width: 24px;
+	height: 24px;
+}
+.project24.pencil {
+	background-position:0 -1320px;
+	width: 24px;
+	height: 24px;
+}
+.project24.pencilandruler {
+	background-position:0 -1344px;
+	width: 24px;
+	height: 24px;
+}
+.project24.photo {
+	background-position:0 -1368px;
+	width: 24px;
+	height: 24px;
+}
+.project24.photo_polaroid {
+	background-position:0 -1392px;
+	width: 24px;
+	height: 24px;
+}
+.project24.piechart {
+	background-position:0 -1416px;
+	width: 24px;
+	height: 24px;
+}
+.project24.pin {
+	background-position:0 -1440px;
+	width: 24px;
+	height: 24px;
+}
+.project24.preferencespanel {
+	background-position:0 -1464px;
+	width: 24px;
+	height: 24px;
+}
+.project24.ram {
+	background-position:0 -1488px;
+	width: 24px;
+	height: 24px;
+}
+.project24.receptionbell {
+	background-position:0 -1512px;
+	width: 24px;
+	height: 24px;
+}
+.project24.rss {
+	background-position:0 -1536px;
+	width: 24px;
+	height: 24px;
+}
+.project24.ruler {
+	background-position:0 -1560px;
+	width: 24px;
+	height: 24px;
+}
+.project24.schoolbell {
+	background-position:0 -1584px;
+	width: 24px;
+	height: 24px;
+}
+.project24.shoppingbag {
+	background-position:0 -1608px;
+	width: 24px;
+	height: 24px;
+}
+.project24.shoppingbag_black {
+	background-position:0 -1632px;
+	width: 24px;
+	height: 24px;
+}
+.project24.shoppingbag_paperboard {
+	background-position:0 -1656px;
+	width: 24px;
+	height: 24px;
+}
+.project24.shoppingbag_pricetag {
+	background-position:0 -1680px;
+	width: 24px;
+	height: 24px;
+}
+.project24.signpost {
+	background-position:0 -1704px;
+	width: 24px;
+	height: 24px;
+}
+.project24.signpost_alternate {
+	background-position:0 -1728px;
+	width: 24px;
+	height: 24px;
+}
+.project24.spinningbeachball {
+	background-position:0 -1752px;
+	width: 24px;
+	height: 24px;
+}
+.project24.status {
+	background-position:0 -1776px;
+	width: 24px;
+	height: 24px;
+}
+.project24.stoplight {
+	background-position:0 -1800px;
+	width: 24px;
+	height: 24px;
+}
+.project24.stopwatch_off {
+	background-position:0 -1824px;
+	width: 24px;
+	height: 24px;
+}
+.project24.stopwatch_on {
+	background-position:0 -1848px;
+	width: 24px;
+	height: 24px;
+}
+.project24.suit {
+	background-position:0 -1872px;
+	width: 24px;
+	height: 24px;
+}
+.project24.tophat {
+	background-position:0 -1896px;
+	width: 24px;
+	height: 24px;
+}
+.project24.tophat_magic {
+	background-position:0 -1920px;
+	width: 24px;
+	height: 24px;
+}
+.project24.tophat_magicwand {
+	background-position:0 -1944px;
+	width: 24px;
+	height: 24px;
+}
+.project24.tophat_wand {
+	background-position:0 -1968px;
+	width: 24px;
+	height: 24px;
+}
+.project24.traffic_link {
+	background-position:0 -1992px;
+	width: 24px;
+	height: 24px;
+}
+.project24.traffic_noentry {
+	background-position:0 -2016px;
+	width: 24px;
+	height: 24px;
+}
+.project24.traffic_stop {
+	background-position:0 -2040px;
+	width: 24px;
+	height: 24px;
+}
+.project24.traffic_warning {
+	background-position:0 -2064px;
+	width: 24px;
+	height: 24px;
+}
+.project24.traffic_yield {
+	background-position:0 -2088px;
+	width: 24px;
+	height: 24px;
+}
+.project24.trash {
+	background-position:0 -2112px;
+	width: 24px;
+	height: 24px;
+}
+.project24.trash_empty {
+	background-position:0 -2136px;
+	width: 24px;
+	height: 24px;
+}
+.project24.trash_full {
+	background-position:0 -2160px;
+	width: 24px;
+	height: 24px;
+}
+.project24.twitter {
+	background-position:0 -2184px;
+	width: 24px;
+	height: 24px;
+}
+.project24.twitter_mention {
+	background-position:0 -2208px;
+	width: 24px;
+	height: 24px;
+}
+.project24.twitter_retweet {
+	background-position:0 -2232px;
+	width: 24px;
+	height: 24px;
+}
+.project24.ui_appearance {
+	background-position:0 -2256px;
+	width: 24px;
+	height: 24px;
+}
+.project24.ui_finder {
+	background-position:0 -2280px;
+	width: 24px;
+	height: 24px;
+}
+.project24.ui_inspector {
+	background-position:0 -2304px;
+	width: 24px;
+	height: 24px;
+}
+.project24.ui_listwindow {
+	background-position:0 -2328px;
+	width: 24px;
+	height: 24px;
+}
+.project24.ui_rulers {
+	background-position:0 -2352px;
+	width: 24px;
+	height: 24px;
+}
+.project24.ui_sidebar {
+	background-position:0 -2376px;
+	width: 24px;
+	height: 24px;
+}
+.project24.ui_text {
+	background-position:0 -2400px;
+	width: 24px;
+	height: 24px;
+}
+.project24.ui_window {
+	background-position:0 -2424px;
+	width: 24px;
+	height: 24px;
+}
+.project24.user {
+	background-position:0 -2448px;
+	width: 24px;
+	height: 24px;
+}
+.project24.users {
+	background-position:0 -2472px;
+	width: 24px;
+	height: 24px;
+}
+.project24.wallclock {
+	background-position:0 -2496px;
+	width: 24px;
+	height: 24px;
+}
+.project24.wallclock_past {
+	background-position:0 -2520px;
+	width: 24px;
+	height: 24px;
+}
+.project24.wallclock_timemachine {
+	background-position:0 -2544px;
+	width: 24px;
+	height: 24px;
+}
+.project24.wallet {
+	background-position:0 -2568px;
+	width: 24px;
+	height: 24px;
+}
+.project24.wallet_money {
+	background-position:0 -2592px;
+	width: 24px;
+	height: 24px;
+}
+.project24.wand {
+	background-position:0 -2616px;
+	width: 24px;
+	height: 24px;
+}
+.project24.wand_magic {
+	background-position:0 -2640px;
+	width: 24px;
+	height: 24px;
+}
+.project24.website {
+	background-position:0 -2664px;
+	width: 24px;
+	height: 24px;
+}
+.project24.website_alias {
+	background-position:0 -2688px;
+	width: 24px;
+	height: 24px;
+}
+.project24.website_link {
+	background-position:0 -2712px;
+	width: 24px;
+	height: 24px;
+}

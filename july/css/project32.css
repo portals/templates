@@ -1,0 +1,573 @@
+.project32 {
+	background:url('../img/project32.png') no-repeat top left; display:inline-block;
+}
+.project32.addressbook {
+	background-position:0 -0px;
+	width: 32px;
+	height: 32px;
+}
+.project32.alert {
+	background-position:0 -32px;
+	width: 32px;
+	height: 32px;
+}
+.project32.applications {
+	background-position:0 -64px;
+	width: 32px;
+	height: 32px;
+}
+.project32.battery {
+	background-position:0 -96px;
+	width: 32px;
+	height: 32px;
+}
+.project32.batterydisplay {
+	background-position:0 -128px;
+	width: 32px;
+	height: 32px;
+}
+.project32.batterydisplay_charging {
+	background-position:0 -160px;
+	width: 32px;
+	height: 32px;
+}
+.project32.batterydisplay_full {
+	background-position:0 -192px;
+	width: 32px;
+	height: 32px;
+}
+.project32.batterydisplay_low {
+	background-position:0 -224px;
+	width: 32px;
+	height: 32px;
+}
+.project32.bell {
+	background-position:0 -256px;
+	width: 32px;
+	height: 32px;
+}
+.project32.book {
+	background-position:0 -288px;
+	width: 32px;
+	height: 32px;
+}
+.project32.book_bookmark {
+	background-position:0 -320px;
+	width: 32px;
+	height: 32px;
+}
+.project32.box {
+	background-position:0 -352px;
+	width: 32px;
+	height: 32px;
+}
+.project32.box_thissideup {
+	background-position:0 -384px;
+	width: 32px;
+	height: 32px;
+}
+.project32.burn {
+	background-position:0 -416px;
+	width: 32px;
+	height: 32px;
+}
+.project32.calendar_blue {
+	background-position:0 -448px;
+	width: 32px;
+	height: 32px;
+}
+.project32.calendar_dayview {
+	background-position:0 -480px;
+	width: 32px;
+	height: 32px;
+}
+.project32.calendar_monthview {
+	background-position:0 -512px;
+	width: 32px;
+	height: 32px;
+}
+.project32.chalkboard {
+	background-position:0 -544px;
+	width: 32px;
+	height: 32px;
+}
+.project32.chalkboard_empty {
+	background-position:0 -576px;
+	width: 32px;
+	height: 32px;
+}
+.project32.chip {
+	background-position:0 -608px;
+	width: 32px;
+	height: 32px;
+}
+.project32.clipboard_empty {
+	background-position:0 -640px;
+	width: 32px;
+	height: 32px;
+}
+.project32.clipboard_torn {
+	background-position:0 -672px;
+	width: 32px;
+	height: 32px;
+}
+.project32.colorwheel {
+	background-position:0 -704px;
+	width: 32px;
+	height: 32px;
+}
+.project32.contactcard {
+	background-position:0 -736px;
+	width: 32px;
+	height: 32px;
+}
+.project32.dashboard {
+	background-position:0 -768px;
+	width: 32px;
+	height: 32px;
+}
+.project32.delete {
+	background-position:0 -800px;
+	width: 32px;
+	height: 32px;
+}
+.project32.design {
+	background-position:0 -832px;
+	width: 32px;
+	height: 32px;
+}
+.project32.design_blueprint {
+	background-position:0 -864px;
+	width: 32px;
+	height: 32px;
+}
+.project32.dictionary {
+	background-position:0 -896px;
+	width: 32px;
+	height: 32px;
+}
+.project32.disk_harddisk {
+	background-position:0 -928px;
+	width: 32px;
+	height: 32px;
+}
+.project32.e-mail {
+	background-position:0 -960px;
+	width: 32px;
+	height: 32px;
+}
+.project32.envelope {
+	background-position:0 -992px;
+	width: 32px;
+	height: 32px;
+}
+.project32.envelope_airmail {
+	background-position:0 -1024px;
+	width: 32px;
+	height: 32px;
+}
+.project32.error {
+	background-position:0 -1056px;
+	width: 32px;
+	height: 32px;
+}
+.project32.facebook {
+	background-position:0 -1088px;
+	width: 32px;
+	height: 32px;
+}
+.project32.file {
+	background-position:0 -1120px;
+	width: 32px;
+	height: 32px;
+}
+.project32.filetype_rss {
+	background-position:0 -1152px;
+	width: 32px;
+	height: 32px;
+}
+.project32.filetype_rss_orange {
+	background-position:0 -1184px;
+	width: 32px;
+	height: 32px;
+}
+.project32.gear {
+	background-position:0 -1216px;
+	width: 32px;
+	height: 32px;
+}
+.project32.get-info {
+	background-position:0 -1248px;
+	width: 32px;
+	height: 32px;
+}
+.project32.harddisk_installation {
+	background-position:0 -1280px;
+	width: 32px;
+	height: 32px;
+}
+.project32.house {
+	background-position:0 -1312px;
+	width: 32px;
+	height: 32px;
+}
+.project32.ical {
+	background-position:0 -1344px;
+	width: 32px;
+	height: 32px;
+}
+.project32.instantmessaging {
+	background-position:0 -1376px;
+	width: 32px;
+	height: 32px;
+}
+.project32.lock {
+	background-position:0 -1408px;
+	width: 32px;
+	height: 32px;
+}
+.project32.lock_unlocked {
+	background-position:0 -1440px;
+	width: 32px;
+	height: 32px;
+}
+.project32.magnifyingglass {
+	background-position:0 -1472px;
+	width: 32px;
+	height: 32px;
+}
+.project32.money {
+	background-position:0 -1504px;
+	width: 32px;
+	height: 32px;
+}
+.project32.money_glowing {
+	background-position:0 -1536px;
+	width: 32px;
+	height: 32px;
+}
+.project32.notification {
+	background-position:0 -1568px;
+	width: 32px;
+	height: 32px;
+}
+.project32.panel {
+	background-position:0 -1600px;
+	width: 32px;
+	height: 32px;
+}
+.project32.panel_colors {
+	background-position:0 -1632px;
+	width: 32px;
+	height: 32px;
+}
+.project32.panel_find {
+	background-position:0 -1664px;
+	width: 32px;
+	height: 32px;
+}
+.project32.panel_inspector {
+	background-position:0 -1696px;
+	width: 32px;
+	height: 32px;
+}
+.project32.pen {
+	background-position:0 -1728px;
+	width: 32px;
+	height: 32px;
+}
+.project32.pencil {
+	background-position:0 -1760px;
+	width: 32px;
+	height: 32px;
+}
+.project32.pencilandruler {
+	background-position:0 -1792px;
+	width: 32px;
+	height: 32px;
+}
+.project32.photo {
+	background-position:0 -1824px;
+	width: 32px;
+	height: 32px;
+}
+.project32.photo_polaroid {
+	background-position:0 -1856px;
+	width: 32px;
+	height: 32px;
+}
+.project32.piechart {
+	background-position:0 -1888px;
+	width: 32px;
+	height: 32px;
+}
+.project32.pin {
+	background-position:0 -1920px;
+	width: 32px;
+	height: 32px;
+}
+.project32.preferencespanel {
+	background-position:0 -1952px;
+	width: 32px;
+	height: 32px;
+}
+.project32.ram {
+	background-position:0 -1984px;
+	width: 32px;
+	height: 32px;
+}
+.project32.receptionbell {
+	background-position:0 -2016px;
+	width: 32px;
+	height: 32px;
+}
+.project32.rss {
+	background-position:0 -2048px;
+	width: 32px;
+	height: 32px;
+}
+.project32.ruler {
+	background-position:0 -2080px;
+	width: 32px;
+	height: 32px;
+}
+.project32.schoolbell {
+	background-position:0 -2112px;
+	width: 32px;
+	height: 32px;
+}
+.project32.shoppingbag {
+	background-position:0 -2144px;
+	width: 32px;
+	height: 32px;
+}
+.project32.shoppingbag_black {
+	background-position:0 -2176px;
+	width: 32px;
+	height: 32px;
+}
+.project32.shoppingbag_paperboard {
+	background-position:0 -2208px;
+	width: 32px;
+	height: 32px;
+}
+.project32.shoppingbag_pricetag {
+	background-position:0 -2240px;
+	width: 32px;
+	height: 32px;
+}
+.project32.signpost {
+	background-position:0 -2272px;
+	width: 32px;
+	height: 32px;
+}
+.project32.signpost_alternate {
+	background-position:0 -2304px;
+	width: 32px;
+	height: 32px;
+}
+.project32.spinningbeachball {
+	background-position:0 -2336px;
+	width: 32px;
+	height: 32px;
+}
+.project32.status {
+	background-position:0 -2368px;
+	width: 32px;
+	height: 32px;
+}
+.project32.stoplight {
+	background-position:0 -2400px;
+	width: 32px;
+	height: 32px;
+}
+.project32.stopwatch_off {
+	background-position:0 -2432px;
+	width: 32px;
+	height: 32px;
+}
+.project32.stopwatch_on {
+	background-position:0 -2464px;
+	width: 32px;
+	height: 32px;
+}
+.project32.suit {
+	background-position:0 -2496px;
+	width: 32px;
+	height: 32px;
+}
+.project32.tophat {
+	background-position:0 -2528px;
+	width: 32px;
+	height: 32px;
+}
+.project32.tophat_magic {
+	background-position:0 -2560px;
+	width: 32px;
+	height: 32px;
+}
+.project32.tophat_magicwand {
+	background-position:0 -2592px;
+	width: 32px;
+	height: 32px;
+}
+.project32.tophat_wand {
+	background-position:0 -2624px;
+	width: 32px;
+	height: 32px;
+}
+.project32.traffic_link {
+	background-position:0 -2656px;
+	width: 32px;
+	height: 32px;
+}
+.project32.traffic_noentry {
+	background-position:0 -2688px;
+	width: 32px;
+	height: 32px;
+}
+.project32.traffic_stop {
+	background-position:0 -2720px;
+	width: 32px;
+	height: 32px;
+}
+.project32.traffic_warning {
+	background-position:0 -2752px;
+	width: 32px;
+	height: 32px;
+}
+.project32.traffic_yield {
+	background-position:0 -2784px;
+	width: 32px;
+	height: 32px;
+}
+.project32.trash {
+	background-position:0 -2816px;
+	width: 32px;
+	height: 32px;
+}
+.project32.trash_empty {
+	background-position:0 -2848px;
+	width: 32px;
+	height: 32px;
+}
+.project32.trash_full {
+	background-position:0 -2880px;
+	width: 32px;
+	height: 32px;
+}
+.project32.twitter {
+	background-position:0 -2912px;
+	width: 32px;
+	height: 32px;
+}
+.project32.twitter_mention {
+	background-position:0 -2944px;
+	width: 32px;
+	height: 32px;
+}
+.project32.twitter_retweet {
+	background-position:0 -2976px;
+	width: 32px;
+	height: 32px;
+}
+.project32.ui_appearance {
+	background-position:0 -3008px;
+	width: 32px;
+	height: 32px;
+}
+.project32.ui_finder {
+	background-position:0 -3040px;
+	width: 32px;
+	height: 32px;
+}
+.project32.ui_inspector {
+	background-position:0 -3072px;
+	width: 32px;
+	height: 32px;
+}
+.project32.ui_listwindow {
+	background-position:0 -3104px;
+	width: 32px;
+	height: 32px;
+}
+.project32.ui_rulers {
+	background-position:0 -3136px;
+	width: 32px;
+	height: 32px;
+}
+.project32.ui_sidebar {
+	background-position:0 -3168px;
+	width: 32px;
+	height: 32px;
+}
+.project32.ui_text {
+	background-position:0 -3200px;
+	width: 32px;
+	height: 32px;
+}
+.project32.ui_window {
+	background-position:0 -3232px;
+	width: 32px;
+	height: 32px;
+}
+.project32.user {
+	background-position:0 -3264px;
+	width: 32px;
+	height: 32px;
+}
+.project32.users {
+	background-position:0 -3296px;
+	width: 32px;
+	height: 32px;
+}
+.project32.wallclock {
+	background-position:0 -3328px;
+	width: 32px;
+	height: 32px;
+}
+.project32.wallclock_past {
+	background-position:0 -3360px;
+	width: 32px;
+	height: 32px;
+}
+.project32.wallclock_timemachine {
+	background-position:0 -3392px;
+	width: 32px;
+	height: 32px;
+}
+.project32.wallet {
+	background-position:0 -3424px;
+	width: 32px;
+	height: 32px;
+}
+.project32.wallet_money {
+	background-position:0 -3456px;
+	width: 32px;
+	height: 32px;
+}
+.project32.wand {
+	background-position:0 -3488px;
+	width: 32px;
+	height: 32px;
+}
+.project32.wand_magic {
+	background-position:0 -3520px;
+	width: 32px;
+	height: 32px;
+}
+.project32.website {
+	background-position:0 -3552px;
+	width: 32px;
+	height: 32px;
+}
+.project32.website_alias {
+	background-position:0 -3584px;
+	width: 32px;
+	height: 32px;
+}
+.project32.website_link {
+	background-position:0 -3616px;
+	width: 32px;
+	height: 32px;
+}

@@ -1,0 +1,573 @@
+.project {
+	background:url('../img/project.png') no-repeat top left; display:inline-block;
+}
+.project.addressbook {
+	background-position:0 -0px;
+	width: 32px;
+	height: 32px;
+}
+.project.alert {
+	background-position:0 -32px;
+	width: 32px;
+	height: 32px;
+}
+.project.applications {
+	background-position:0 -64px;
+	width: 32px;
+	height: 32px;
+}
+.project.battery {
+	background-position:0 -96px;
+	width: 32px;
+	height: 32px;
+}
+.project.batterydisplay {
+	background-position:0 -128px;
+	width: 32px;
+	height: 32px;
+}
+.project.batterydisplay_charging {
+	background-position:0 -160px;
+	width: 32px;
+	height: 32px;
+}
+.project.batterydisplay_full {
+	background-position:0 -192px;
+	width: 32px;
+	height: 32px;
+}
+.project.batterydisplay_low {
+	background-position:0 -224px;
+	width: 32px;
+	height: 32px;
+}
+.project.bell {
+	background-position:0 -256px;
+	width: 32px;
+	height: 32px;
+}
+.project.book {
+	background-position:0 -288px;
+	width: 32px;
+	height: 32px;
+}
+.project.book_bookmark {
+	background-position:0 -320px;
+	width: 32px;
+	height: 32px;
+}
+.project.box {
+	background-position:0 -352px;
+	width: 32px;
+	height: 32px;
+}
+.project.box_thissideup {
+	background-position:0 -384px;
+	width: 32px;
+	height: 32px;
+}
+.project.burn {
+	background-position:0 -416px;
+	width: 32px;
+	height: 32px;
+}
+.project.calendar_blue {
+	background-position:0 -448px;
+	width: 32px;
+	height: 32px;
+}
+.project.calendar_dayview {
+	background-position:0 -480px;
+	width: 32px;
+	height: 32px;
+}
+.project.calendar_monthview {
+	background-position:0 -512px;
+	width: 32px;
+	height: 32px;
+}
+.project.chalkboard {
+	background-position:0 -544px;
+	width: 32px;
+	height: 32px;
+}
+.project.chalkboard_empty {
+	background-position:0 -576px;
+	width: 32px;
+	height: 32px;
+}
+.project.chip {
+	background-position:0 -608px;
+	width: 32px;
+	height: 32px;
+}
+.project.clipboard_empty {
+	background-position:0 -640px;
+	width: 32px;
+	height: 32px;
+}
+.project.clipboard_torn {
+	background-position:0 -672px;
+	width: 32px;
+	height: 32px;
+}
+.project.colorwheel {
+	background-position:0 -704px;
+	width: 32px;
+	height: 32px;
+}
+.project.contactcard {
+	background-position:0 -736px;
+	width: 32px;
+	height: 32px;
+}
+.project.dashboard {
+	background-position:0 -768px;
+	width: 32px;
+	height: 32px;
+}
+.project.delete {
+	background-position:0 -800px;
+	width: 32px;
+	height: 32px;
+}
+.project.design {
+	background-position:0 -832px;
+	width: 32px;
+	height: 32px;
+}
+.project.design_blueprint {
+	background-position:0 -864px;
+	width: 32px;
+	height: 32px;
+}
+.project.dictionary {
+	background-position:0 -896px;
+	width: 32px;
+	height: 32px;
+}
+.project.disk_harddisk {
+	background-position:0 -928px;
+	width: 32px;
+	height: 32px;
+}
+.project.e-mail {
+	background-position:0 -960px;
+	width: 32px;
+	height: 32px;
+}
+.project.envelope {
+	background-position:0 -992px;
+	width: 32px;
+	height: 32px;
+}
+.project.envelope_airmail {
+	background-position:0 -1024px;
+	width: 32px;
+	height: 32px;
+}
+.project.error {
+	background-position:0 -1056px;
+	width: 32px;
+	height: 32px;
+}
+.project.facebook {
+	background-position:0 -1088px;
+	width: 32px;
+	height: 32px;
+}
+.project.file {
+	background-position:0 -1120px;
+	width: 32px;
+	height: 32px;
+}
+.project.filetype_rss {
+	background-position:0 -1152px;
+	width: 32px;
+	height: 32px;
+}
+.project.filetype_rss_orange {
+	background-position:0 -1184px;
+	width: 32px;
+	height: 32px;
+}
+.project.gear {
+	background-position:0 -1216px;
+	width: 32px;
+	height: 32px;
+}
+.project.get-info {
+	background-position:0 -1248px;
+	width: 32px;
+	height: 32px;
+}
+.project.harddisk_installation {
+	background-position:0 -1280px;
+	width: 32px;
+	height: 32px;
+}
+.project.house {
+	background-position:0 -1312px;
+	width: 32px;
+	height: 32px;
+}
+.project.ical {
+	background-position:0 -1344px;
+	width: 32px;
+	height: 32px;
+}
+.project.instantmessaging {
+	background-position:0 -1376px;
+	width: 32px;
+	height: 32px;
+}
+.project.lock {
+	background-position:0 -1408px;
+	width: 32px;
+	height: 32px;
+}
+.project.lock_unlocked {
+	background-position:0 -1440px;
+	width: 32px;
+	height: 32px;
+}
+.project.magnifyingglass {
+	background-position:0 -1472px;
+	width: 32px;
+	height: 32px;
+}
+.project.money {
+	background-position:0 -1504px;
+	width: 32px;
+	height: 32px;
+}
+.project.money_glowing {
+	background-position:0 -1536px;
+	width: 32px;
+	height: 32px;
+}
+.project.notification {
+	background-position:0 -1568px;
+	width: 32px;
+	height: 32px;
+}
+.project.panel {
+	background-position:0 -1600px;
+	width: 32px;
+	height: 32px;
+}
+.project.panel_colors {
+	background-position:0 -1632px;
+	width: 32px;
+	height: 32px;
+}
+.project.panel_find {
+	background-position:0 -1664px;
+	width: 32px;
+	height: 32px;
+}
+.project.panel_inspector {
+	background-position:0 -1696px;
+	width: 32px;
+	height: 32px;
+}
+.project.pen {
+	background-position:0 -1728px;
+	width: 32px;
+	height: 32px;
+}
+.project.pencil {
+	background-position:0 -1760px;
+	width: 32px;
+	height: 32px;
+}
+.project.pencilandruler {
+	background-position:0 -1792px;
+	width: 32px;
+	height: 32px;
+}
+.project.photo {
+	background-position:0 -1824px;
+	width: 32px;
+	height: 32px;
+}
+.project.photo_polaroid {
+	background-position:0 -1856px;
+	width: 32px;
+	height: 32px;
+}
+.project.piechart {
+	background-position:0 -1888px;
+	width: 32px;
+	height: 32px;
+}
+.project.pin {
+	background-position:0 -1920px;
+	width: 32px;
+	height: 32px;
+}
+.project.preferencespanel {
+	background-position:0 -1952px;
+	width: 32px;
+	height: 32px;
+}
+.project.ram {
+	background-position:0 -1984px;
+	width: 32px;
+	height: 32px;
+}
+.project.receptionbell {
+	background-position:0 -2016px;
+	width: 32px;
+	height: 32px;
+}
+.project.rss {
+	background-position:0 -2048px;
+	width: 32px;
+	height: 32px;
+}
+.project.ruler {
+	background-position:0 -2080px;
+	width: 32px;
+	height: 32px;
+}
+.project.schoolbell {
+	background-position:0 -2112px;
+	width: 32px;
+	height: 32px;
+}
+.project.shoppingbag {
+	background-position:0 -2144px;
+	width: 32px;
+	height: 32px;
+}
+.project.shoppingbag_black {
+	background-position:0 -2176px;
+	width: 32px;
+	height: 32px;
+}
+.project.shoppingbag_paperboard {
+	background-position:0 -2208px;
+	width: 32px;
+	height: 32px;
+}
+.project.shoppingbag_pricetag {
+	background-position:0 -2240px;
+	width: 32px;
+	height: 32px;
+}
+.project.signpost {
+	background-position:0 -2272px;
+	width: 32px;
+	height: 32px;
+}
+.project.signpost_alternate {
+	background-position:0 -2304px;
+	width: 32px;
+	height: 32px;
+}
+.project.spinningbeachball {
+	background-position:0 -2336px;
+	width: 32px;
+	height: 32px;
+}
+.project.status {
+	background-position:0 -2368px;
+	width: 32px;
+	height: 32px;
+}
+.project.stoplight {
+	background-position:0 -2400px;
+	width: 32px;
+	height: 32px;
+}
+.project.stopwatch_off {
+	background-position:0 -2432px;
+	width: 32px;
+	height: 32px;
+}
+.project.stopwatch_on {
+	background-position:0 -2464px;
+	width: 32px;
+	height: 32px;
+}
+.project.suit {
+	background-position:0 -2496px;
+	width: 32px;
+	height: 32px;
+}
+.project.tophat {
+	background-position:0 -2528px;
+	width: 32px;
+	height: 32px;
+}
+.project.tophat_magic {
+	background-position:0 -2560px;
+	width: 32px;
+	height: 32px;
+}
+.project.tophat_magicwand {
+	background-position:0 -2592px;
+	width: 32px;
+	height: 32px;
+}
+.project.tophat_wand {
+	background-position:0 -2624px;
+	width: 32px;
+	height: 32px;
+}
+.project.traffic_link {
+	background-position:0 -2656px;
+	width: 32px;
+	height: 32px;
+}
+.project.traffic_noentry {
+	background-position:0 -2688px;
+	width: 32px;
+	height: 32px;
+}
+.project.traffic_stop {
+	background-position:0 -2720px;
+	width: 32px;
+	height: 32px;
+}
+.project.traffic_warning {
+	background-position:0 -2752px;
+	width: 32px;
+	height: 32px;
+}
+.project.traffic_yield {
+	background-position:0 -2784px;
+	width: 32px;
+	height: 32px;
+}
+.project.trash {
+	background-position:0 -2816px;
+	width: 32px;
+	height: 32px;
+}
+.project.trash_empty {
+	background-position:0 -2848px;
+	width: 32px;
+	height: 32px;
+}
+.project.trash_full {
+	background-position:0 -2880px;
+	width: 32px;
+	height: 32px;
+}
+.project.twitter {
+	background-position:0 -2912px;
+	width: 32px;
+	height: 32px;
+}
+.project.twitter_mention {
+	background-position:0 -2944px;
+	width: 32px;
+	height: 32px;
+}
+.project.twitter_retweet {
+	background-position:0 -2976px;
+	width: 32px;
+	height: 32px;
+}
+.project.ui_appearance {
+	background-position:0 -3008px;
+	width: 32px;
+	height: 32px;
+}
+.project.ui_finder {
+	background-position:0 -3040px;
+	width: 32px;
+	height: 32px;
+}
+.project.ui_inspector {
+	background-position:0 -3072px;
+	width: 32px;
+	height: 32px;
+}
+.project.ui_listwindow {
+	background-position:0 -3104px;
+	width: 32px;
+	height: 32px;
+}
+.project.ui_rulers {
+	background-position:0 -3136px;
+	width: 32px;
+	height: 32px;
+}
+.project.ui_sidebar {
+	background-position:0 -3168px;
+	width: 32px;
+	height: 32px;
+}
+.project.ui_text {
+	background-position:0 -3200px;
+	width: 32px;
+	height: 32px;
+}
+.project.ui_window {
+	background-position:0 -3232px;
+	width: 32px;
+	height: 32px;
+}
+.project.user {
+	background-position:0 -3264px;
+	width: 32px;
+	height: 32px;
+}
+.project.users {
+	background-position:0 -3296px;
+	width: 32px;
+	height: 32px;
+}
+.project.wallclock {
+	background-position:0 -3328px;
+	width: 32px;
+	height: 32px;
+}
+.project.wallclock_past {
+	background-position:0 -3360px;
+	width: 32px;
+	height: 32px;
+}
+.project.wallclock_timemachine {
+	background-position:0 -3392px;
+	width: 32px;
+	height: 32px;
+}
+.project.wallet {
+	background-position:0 -3424px;
+	width: 32px;
+	height: 32px;
+}
+.project.wallet_money {
+	background-position:0 -3456px;
+	width: 32px;
+	height: 32px;
+}
+.project.wand {
+	background-position:0 -3488px;
+	width: 32px;
+	height: 32px;
+}
+.project.wand_magic {
+	background-position:0 -3520px;
+	width: 32px;
+	height: 32px;
+}
+.project.website {
+	background-position:0 -3552px;
+	width: 32px;
+	height: 32px;
+}
+.project.website_alias {
+	background-position:0 -3584px;
+	width: 32px;
+	height: 32px;
+}
+.project.website_link {
+	background-position:0 -3616px;
+	width: 32px;
+	height: 32px;
+}

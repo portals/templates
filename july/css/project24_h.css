@@ -1,0 +1,1143 @@
+.project24_h {
+	background:url('../img/project24_h.png') no-repeat top left; display:inline-block;
+}
+.project24_h.addressbook {
+	background-position:0 -0px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.addressbook:hover {
+	background-position:-24px -0px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.alert {
+	background-position:0 -24px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.alert:hover {
+	background-position:-24px -24px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.applications {
+	background-position:0 -48px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.applications:hover {
+	background-position:-24px -48px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.battery {
+	background-position:0 -72px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.battery:hover {
+	background-position:-24px -72px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.batterydisplay {
+	background-position:0 -96px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.batterydisplay:hover {
+	background-position:-24px -96px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.batterydisplay_charging {
+	background-position:0 -120px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.batterydisplay_charging:hover {
+	background-position:-24px -120px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.batterydisplay_full {
+	background-position:0 -144px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.batterydisplay_full:hover {
+	background-position:-24px -144px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.batterydisplay_low {
+	background-position:0 -168px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.batterydisplay_low:hover {
+	background-position:-24px -168px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.bell {
+	background-position:0 -192px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.bell:hover {
+	background-position:-24px -192px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.book {
+	background-position:0 -216px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.book:hover {
+	background-position:-24px -216px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.book_bookmark {
+	background-position:0 -240px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.book_bookmark:hover {
+	background-position:-24px -240px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.box {
+	background-position:0 -264px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.box:hover {
+	background-position:-24px -264px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.box_thissideup {
+	background-position:0 -288px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.box_thissideup:hover {
+	background-position:-24px -288px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.burn {
+	background-position:0 -312px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.burn:hover {
+	background-position:-24px -312px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.calendar_blue {
+	background-position:0 -336px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.calendar_blue:hover {
+	background-position:-24px -336px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.calendar_dayview {
+	background-position:0 -360px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.calendar_dayview:hover {
+	background-position:-24px -360px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.calendar_monthview {
+	background-position:0 -384px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.calendar_monthview:hover {
+	background-position:-24px -384px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.chalkboard {
+	background-position:0 -408px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.chalkboard:hover {
+	background-position:-24px -408px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.chalkboard_empty {
+	background-position:0 -432px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.chalkboard_empty:hover {
+	background-position:-24px -432px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.chip {
+	background-position:0 -456px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.chip:hover {
+	background-position:-24px -456px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.clipboard_empty {
+	background-position:0 -480px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.clipboard_empty:hover {
+	background-position:-24px -480px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.clipboard_torn {
+	background-position:0 -504px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.clipboard_torn:hover {
+	background-position:-24px -504px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.colorwheel {
+	background-position:0 -528px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.colorwheel:hover {
+	background-position:-24px -528px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.contactcard {
+	background-position:0 -552px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.contactcard:hover {
+	background-position:-24px -552px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.dashboard {
+	background-position:0 -576px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.dashboard:hover {
+	background-position:-24px -576px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.delete {
+	background-position:0 -600px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.delete:hover {
+	background-position:-24px -600px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.design {
+	background-position:0 -624px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.design:hover {
+	background-position:-24px -624px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.design_blueprint {
+	background-position:0 -648px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.design_blueprint:hover {
+	background-position:-24px -648px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.dictionary {
+	background-position:0 -672px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.dictionary:hover {
+	background-position:-24px -672px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.disk_harddisk {
+	background-position:0 -696px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.disk_harddisk:hover {
+	background-position:-24px -696px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.e-mail {
+	background-position:0 -720px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.e-mail:hover {
+	background-position:-24px -720px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.envelope {
+	background-position:0 -744px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.envelope:hover {
+	background-position:-24px -744px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.envelope_airmail {
+	background-position:0 -768px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.envelope_airmail:hover {
+	background-position:-24px -768px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.error {
+	background-position:0 -792px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.error:hover {
+	background-position:-24px -792px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.facebook {
+	background-position:0 -816px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.facebook:hover {
+	background-position:-24px -816px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.file {
+	background-position:0 -840px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.file:hover {
+	background-position:-24px -840px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.filetype_rss {
+	background-position:0 -864px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.filetype_rss:hover {
+	background-position:-24px -864px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.filetype_rss_orange {
+	background-position:0 -888px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.filetype_rss_orange:hover {
+	background-position:-24px -888px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.gear {
+	background-position:0 -912px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.gear:hover {
+	background-position:-24px -912px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.get-info {
+	background-position:0 -936px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.get-info:hover {
+	background-position:-24px -936px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.harddisk_installation {
+	background-position:0 -960px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.harddisk_installation:hover {
+	background-position:-24px -960px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.house {
+	background-position:0 -984px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.house:hover {
+	background-position:-24px -984px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ical {
+	background-position:0 -1008px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ical:hover {
+	background-position:-24px -1008px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.instantmessaging {
+	background-position:0 -1032px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.instantmessaging:hover {
+	background-position:-24px -1032px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.lock {
+	background-position:0 -1056px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.lock:hover {
+	background-position:-24px -1056px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.lock_unlocked {
+	background-position:0 -1080px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.lock_unlocked:hover {
+	background-position:-24px -1080px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.magnifyingglass {
+	background-position:0 -1104px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.magnifyingglass:hover {
+	background-position:-24px -1104px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.money {
+	background-position:0 -1128px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.money:hover {
+	background-position:-24px -1128px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.money_glowing {
+	background-position:0 -1152px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.money_glowing:hover {
+	background-position:-24px -1152px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.notification {
+	background-position:0 -1176px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.notification:hover {
+	background-position:-24px -1176px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.panel {
+	background-position:0 -1200px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.panel:hover {
+	background-position:-24px -1200px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.panel_colors {
+	background-position:0 -1224px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.panel_colors:hover {
+	background-position:-24px -1224px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.panel_find {
+	background-position:0 -1248px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.panel_find:hover {
+	background-position:-24px -1248px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.panel_inspector {
+	background-position:0 -1272px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.panel_inspector:hover {
+	background-position:-24px -1272px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.pen {
+	background-position:0 -1296px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.pen:hover {
+	background-position:-24px -1296px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.pencil {
+	background-position:0 -1320px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.pencil:hover {
+	background-position:-24px -1320px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.pencilandruler {
+	background-position:0 -1344px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.pencilandruler:hover {
+	background-position:-24px -1344px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.photo {
+	background-position:0 -1368px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.photo:hover {
+	background-position:-24px -1368px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.photo_polaroid {
+	background-position:0 -1392px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.photo_polaroid:hover {
+	background-position:-24px -1392px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.piechart {
+	background-position:0 -1416px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.piechart:hover {
+	background-position:-24px -1416px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.pin {
+	background-position:0 -1440px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.pin:hover {
+	background-position:-24px -1440px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.preferencespanel {
+	background-position:0 -1464px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.preferencespanel:hover {
+	background-position:-24px -1464px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ram {
+	background-position:0 -1488px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ram:hover {
+	background-position:-24px -1488px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.receptionbell {
+	background-position:0 -1512px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.receptionbell:hover {
+	background-position:-24px -1512px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.rss {
+	background-position:0 -1536px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.rss:hover {
+	background-position:-24px -1536px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ruler {
+	background-position:0 -1560px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ruler:hover {
+	background-position:-24px -1560px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.schoolbell {
+	background-position:0 -1584px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.schoolbell:hover {
+	background-position:-24px -1584px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.shoppingbag {
+	background-position:0 -1608px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.shoppingbag:hover {
+	background-position:-24px -1608px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.shoppingbag_black {
+	background-position:0 -1632px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.shoppingbag_black:hover {
+	background-position:-24px -1632px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.shoppingbag_paperboard {
+	background-position:0 -1656px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.shoppingbag_paperboard:hover {
+	background-position:-24px -1656px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.shoppingbag_pricetag {
+	background-position:0 -1680px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.shoppingbag_pricetag:hover {
+	background-position:-24px -1680px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.signpost {
+	background-position:0 -1704px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.signpost:hover {
+	background-position:-24px -1704px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.signpost_alternate {
+	background-position:0 -1728px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.signpost_alternate:hover {
+	background-position:-24px -1728px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.spinningbeachball {
+	background-position:0 -1752px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.spinningbeachball:hover {
+	background-position:-24px -1752px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.status {
+	background-position:0 -1776px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.status:hover {
+	background-position:-24px -1776px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.stoplight {
+	background-position:0 -1800px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.stoplight:hover {
+	background-position:-24px -1800px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.stopwatch_off {
+	background-position:0 -1824px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.stopwatch_off:hover {
+	background-position:-24px -1824px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.stopwatch_on {
+	background-position:0 -1848px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.stopwatch_on:hover {
+	background-position:-24px -1848px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.suit {
+	background-position:0 -1872px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.suit:hover {
+	background-position:-24px -1872px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.tophat {
+	background-position:0 -1896px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.tophat:hover {
+	background-position:-24px -1896px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.tophat_magic {
+	background-position:0 -1920px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.tophat_magic:hover {
+	background-position:-24px -1920px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.tophat_magicwand {
+	background-position:0 -1944px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.tophat_magicwand:hover {
+	background-position:-24px -1944px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.tophat_wand {
+	background-position:0 -1968px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.tophat_wand:hover {
+	background-position:-24px -1968px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.traffic_link {
+	background-position:0 -1992px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.traffic_link:hover {
+	background-position:-24px -1992px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.traffic_noentry {
+	background-position:0 -2016px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.traffic_noentry:hover {
+	background-position:-24px -2016px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.traffic_stop {
+	background-position:0 -2040px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.traffic_stop:hover {
+	background-position:-24px -2040px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.traffic_warning {
+	background-position:0 -2064px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.traffic_warning:hover {
+	background-position:-24px -2064px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.traffic_yield {
+	background-position:0 -2088px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.traffic_yield:hover {
+	background-position:-24px -2088px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.trash {
+	background-position:0 -2112px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.trash:hover {
+	background-position:-24px -2112px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.trash_empty {
+	background-position:0 -2136px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.trash_empty:hover {
+	background-position:-24px -2136px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.trash_full {
+	background-position:0 -2160px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.trash_full:hover {
+	background-position:-24px -2160px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.twitter {
+	background-position:0 -2184px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.twitter:hover {
+	background-position:-24px -2184px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.twitter_mention {
+	background-position:0 -2208px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.twitter_mention:hover {
+	background-position:-24px -2208px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.twitter_retweet {
+	background-position:0 -2232px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.twitter_retweet:hover {
+	background-position:-24px -2232px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_appearance {
+	background-position:0 -2256px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_appearance:hover {
+	background-position:-24px -2256px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_finder {
+	background-position:0 -2280px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_finder:hover {
+	background-position:-24px -2280px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_inspector {
+	background-position:0 -2304px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_inspector:hover {
+	background-position:-24px -2304px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_listwindow {
+	background-position:0 -2328px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_listwindow:hover {
+	background-position:-24px -2328px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_rulers {
+	background-position:0 -2352px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_rulers:hover {
+	background-position:-24px -2352px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_sidebar {
+	background-position:0 -2376px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_sidebar:hover {
+	background-position:-24px -2376px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_text {
+	background-position:0 -2400px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_text:hover {
+	background-position:-24px -2400px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_window {
+	background-position:0 -2424px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.ui_window:hover {
+	background-position:-24px -2424px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.user {
+	background-position:0 -2448px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.user:hover {
+	background-position:-24px -2448px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.users {
+	background-position:0 -2472px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.users:hover {
+	background-position:-24px -2472px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wallclock {
+	background-position:0 -2496px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wallclock:hover {
+	background-position:-24px -2496px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wallclock_past {
+	background-position:0 -2520px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wallclock_past:hover {
+	background-position:-24px -2520px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wallclock_timemachine {
+	background-position:0 -2544px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wallclock_timemachine:hover {
+	background-position:-24px -2544px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wallet {
+	background-position:0 -2568px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wallet:hover {
+	background-position:-24px -2568px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wallet_money {
+	background-position:0 -2592px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wallet_money:hover {
+	background-position:-24px -2592px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wand {
+	background-position:0 -2616px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wand:hover {
+	background-position:-24px -2616px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wand_magic {
+	background-position:0 -2640px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.wand_magic:hover {
+	background-position:-24px -2640px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.website {
+	background-position:0 -2664px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.website:hover {
+	background-position:-24px -2664px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.website_alias {
+	background-position:0 -2688px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.website_alias:hover {
+	background-position:-24px -2688px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.website_link {
+	background-position:0 -2712px;
+	width: 24px;
+	height: 24px;
+}
+.project24_h.website_link:hover {
+	background-position:-24px -2712px;
+	width: 24px;
+	height: 24px;
+}

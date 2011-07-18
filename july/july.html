@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd" []>
+<html>
+    <head  profile="http://www.w3.org/2005/10/profile">
+	<title>${NetName} - powered by Trampoline</title>
+	<meta name="ROBOTS" content="INDEX, FOLLOW" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/july.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/project24_h.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/project24.css" media="all" />		
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
+    </head>
+    <body>
+	<div id="wok-header">
+	    <div id="actions">
+		<ul>
+		    <li><a href="#home">home</a></li>
+		    <li><a href="#faq">faq</a></li>
+		    <li><a href="#help">help</a></li>
+		    <li><a href="#legal">legal</a></li>
+		</ul>
+	    </div>
+	    <div id="user">
+		<div id="login">
+		    <div id="login-glow"></div>
+		    <a id="login-button" href="#">Login/Register</a>
+		</div>
+		<div id="login-popup">
+		    <div id="login-signup">
+			<h1>Sono un nuovo utente</h1>
+			<!--button> Registrati </button-->
+		    </div>
+		    <div id="login-signin">
+			<h1>Sono già registrato</h1>
+			<!--button> Login </button-->
+		    </div>
+		</div>
+		<div id="admin"><span class="img"><a href="#" class="project24_h preferencespanel"></a></span></div>
+		<script type="text/javascript">
+		    $(document).ready(
+			    function () {
+			    $( "#login-glow" ).effect( 'pulsate', { mode:"hide", times:3 }, 2000 );
+			    $( "#login-button" ).click( function() {
+				$( "#login-popup" ).toggle( 'blind' , {}, 500 );
+				return false;
+				});
+			    });
+		</script>
+	    </div>
+	</div>
+	<div id="wok-container">
+	    <div id="tp-head">
+		<link rel="stylesheet" type="text/css" href="css/custom.css" media="all" />
+	    </div>
+	    <div id="tp-body">
+		<h1>Inserire qui i propri contenuti</h1>
+		<iframe id="rss-iframe" src="http://www.google.com"></iframe>
+	    </div>
+	</div>
+	<div id="wok-footer">
+	    <div id="powered">powered by <a href="http://www.trampolineup.com">Trampoline Portals</a></div>
+	</div>
+    </body>
+</html>
