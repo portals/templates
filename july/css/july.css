@@ -1,181 +1,187 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600&v2);
 
 .clear {
-	clear: both;
+    clear: both;
 }
 
 #wok-header {
-	text-align: center;
-	text-decoration: none;
-	font-size: 13px;
-	line-height: 30px;
-	font-family: "Open Sans",sans-serif;
-	font-weight: 400;
-	text-shadow: 0px 1px #e1a25d;
-	width: 100%;
-	background-color: #e37723;
-	height: 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 30px;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    text-shadow: 0px 1px #e1a25d;
+    width: 100%;
+    background-color: rgb(225,136,0); 
+    height: 32px;
+    border-bottom: 1px solid rgb(255,255,255);
+    position: absolute;
 }
 
-#wok-footer {
-	font-family: "Open Sans",sans-serif;
-	font-weight: 400;
-	font-size: 13px;
-	float: left;
-	position: absolute;
-	width: 100%;
-	background-color: #e6e6e6;
-	bottom: 0px;
-	height: 32px;
+#wok-header:before {
+    content:"";
+    display:block;
+    position:absolute;
+    left:0;
+    width:100%;
+    height:1px; 
+    bottom:0;
+    background:rgb(204,102,0);
 }
 
 #wok-container {
-	width: 100%;
-	height: 100%;
-	clear: both;
+    height: 100%;
+}
+
+#wok-footer {
+    background-color: rgb(237,237,237);
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-shadow: 0px 1px 0px rgb(255,255,255);
+    color: rgb(118,129,140);
+    float: left;
+    position: absolute;
+    width: 100%;
+    height: 48px;
+    bottom: 0px;
 }
 
 #actions {
-	margin-left: 10px;
-	height: 30px;
-	float: left;
+    margin-left: 10px;
+    height: 30px;
+    float: left;
 }
 
 #actions ul li {
-	text-transform: uppercase;
-	border-top-color: #e37723;
-	border-top-style: solid;
-	border-top-width: 2px;
-	text-align: center;
-	padding-right: 5px;
-	padding-left: 5px;
-	text-decoration: none;
-	float: left;
-	list-style-position: inside;
-	list-style-type: none;
+    text-transform: uppercase;
+    border-top-color: #e37723;
+    border-top-style: solid;
+    border-top-width: 2px;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+    float: left;
+    list-style-position: inside;
+    list-style-type: none;
 }
 
 #actions ul li:hover {
-	height: 28px;
-	border-bottom-style: solid;
-	border-bottom-color: #444544;
-	border-bottom-width: 2px;
-	padding-right: 5px;
-	padding-left: 5px;
-	background-color: #e37723;
-	line-height: 30px;
-	text-decoration: none;
-	float: left;
-	list-style-position: inside;
-	list-style-type: none;
+    height: 28px;
+    border-bottom-style: solid;
+    border-bottom-color: #444544;
+    border-bottom-width: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #e37723;
+    line-height: 30px;
+    text-decoration: none;
+    float: left;
+    list-style-position: inside;
+    list-style-type: none;
 }
 
 #actions ul li a {
-	text-transform: uppercase;
-	color: #444544;
-	text-decoration: none;
+    text-transform: uppercase;
+    color: #444544;
+    text-decoration: none;
 }
 
 #powered {
-	margin-right: 10px;
-	float: right;
-	text-shadow: 0px 1px white;
-	color: #7f7f7f;
-	line-height: 30px;
-	height: 30px;
-	width: auto;
+    width: 95%;
+    margin: 10px auto;
+    position:relative;
+    padding-top:10px;
+    border-top:1px solid rgb(204,204,204);
+}
+
+#powered:before {
+    content:"";
+    display:block;
+    position:absolute;
+    left:0;
+    width:100%;
+    height:1px; 
+    top:0;
+    background:rgb(255,255,255);
+}
+
+#powered .text {
+    float: right;
 }
 
 #powered a {
-	color: black;
-	text-decoration: none;
+    text-decoration: none;
+    color: rgb(118,129,140);
 }
 
 #powered a:hover {
-	color: black;
-	text-decoration: underline;
-}
-
-
-iframe {
-	width: 100%;
-	display: block;
-	height: 600px;
+    color: #7f7f7f;
+    text-decoration: underline;
 }
 
 #user {
-	float: right;
-	height: 32px;
+    float: right;
+    height: 32px;
 }
 
 #login {
-	padding-right: 16px;
-	border-right-style: solid;
-	border-right-color: #444544;
-	border-right-width: 1px;
-	position: absolute;
-	right: 41px;
-	float: right;
-	height: 32px;
+    padding-right: 16px;
+    border-right-style: solid;
+    border-right-color: rgb(153,85,0);
+    border-right-width: 1px;
+    position: absolute;
+    right: 41px;
+    float: right;
+    height: 32px;
 }
 
 #login a {
-	position: relative;
-	text-decoration: none;
-	color: #444544;
-	z-index: 20;
+    position: relative;
+    text-decoration: none;
+    color: #444544;
+    z-index: 20;
 }
 
 #login-glow {
-	position: absolute;
-	right: 0;
-	float: right;
-	margin: 3px 3px 0px 0px;
-	height: 26px;
-	width: 116px;
-	background: rgba(255,255,255,1);
-	border-radius: 5px;
-	z-index: 10;
+    position: absolute;
+    right: 0;
+    float: right;
+    margin: 3px 3px 0px 0px;
+    height: 26px;
+    width: 116px;
+    background: rgba(255,255,255,1);
+    border-radius: 5px;
+    z-index: 10;
 }
 
 #login-popup {
-	display:none;
-	position: absolute;
-	top:32px;
-	right:42px;
-	width: 400px;
-	height: 120px;
-	background: rgba(0,0,0,0.2);
-	border-radius: 0px 0px 5px 5px;
+    display:none;
+    position: absolute;
+    top:32px;
+    right:42px;
+    width: 400px;
+    height: 120px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 0px 0px 5px 5px;
 }
 
 #login-signin, #login-signup {
-	float: left;
-	position: relative;
-	width: 150px;
+    float: left;
+    position: relative;
+    width: 150px;
 }
 
 #admin {
-	border-left-color: #e2a25e;
-	border-left-style: solid;
-	border-left-width: 1px;
-	width: 40px;
-	height: 32px;
+    border-left: 1px solid rgb(255,147,0);
+    width: 40px;
+    height: 32px;
 }
 
 #admin span.img, #admin span.img:hover {
-	margin-right: 8px;
-	margin-left: 8px;
-	margin-bottom: 3px;
-	margin-top: 3px;
-	float: left;
-}
-
-#admin span.img {
-	background: url("web_blue_gray.png") no-repeat 0px 0px;
-}
-
-#admin span.img:hover {
-	background: url("web_blue.png") no-repeat 0px 0px;
+    margin: 3px 8px;
+    float: left;
 }
 
