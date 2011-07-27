@@ -14,6 +14,7 @@
 	font-weight: 400;
 	text-shadow: 0px 1px #e1a25d;
 	background-color: #e37723;
+	border-bottom: 1px solid rgb(255,255,255);
     -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
     -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
@@ -23,7 +24,9 @@
 	font-family: "Open Sans",sans-serif;
 	font-weight: 400;
 	font-size: 13px;
-	background-color: #e6e6e6;
+	background-color: rgb(237,237,237);
+	text-shadow: 0px 1px 0px rgb(255,255,255);
+	color: rgb(118,129,140);
 	/*
     -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px -3px 8px;
     -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px -3px 8px;
@@ -45,8 +48,9 @@
 }
 
 #wok-footer #powered {
-	text-shadow: 0px 1px white;
-	color: #7f7f7f;
+	border-top:1px solid rgb(204,204,204);
+	/*text-shadow: 0px 1px white;*/
+	/*color: #7f7f7f;*/
 }
 
 #actions ul li:hover {
@@ -58,7 +62,7 @@
 }
 
 #trampUser {
-	border-right-color: #444544;
+	border-right-color: rgb(153,85,0);
 }
 
 #trampUser.selected {
@@ -99,7 +103,8 @@
 	background: #444544;
 	color: #E37723;
 	border-radius: 0px 0px 5px 5px;
-    border: 1px solid #E37723;
+    /* border: 1px solid #E37723; */
+    border-color: #FFFFFF;
     border-top: 0px;
 }
 
@@ -109,7 +114,7 @@
 }
 
 #admin {
-	border-left-color: #e2a25e;
+	border-left-color: rgb(255,147,0);
 }
 
 /*
@@ -128,7 +133,7 @@ ul#actions-menu li:hover {
 
 ul#actions-menu li:last-child:hover {
 	border-radius: 0px 0px 6px 6px;
-	/*border-bottom: 2px transparent;*/
+	//border-bottom: 2px transparent;
 }
 
 ul#actions-menu li.userinfos {
@@ -141,11 +146,6 @@ ul#actions-menu li.userinfos:hover {
 
 #widget-identity {
 	color: #FFFFFF;
-}
-
-#form-login {
-    border: 1px solid #E37723;
-    margin: -1px;
 }
 
 #widget-identity input[type=button],
@@ -212,7 +212,10 @@ ul#actions-menu li.userinfos:hover {
 
 /* to be fixed */
 
+
 #form-login {
+    border-color: #E37723;
+    margin: -1px;
 	background: rgba(46, 48, 52, 0.9);
 	border-top: 1px solid #3c3e40;
 	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
@@ -223,9 +226,6 @@ ul#actions-menu li.userinfos:hover {
 	border-radius:5px;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	/*
-	margin-top: 15px;
-	*/
 	margin-bottom: 15px;
 }
 
