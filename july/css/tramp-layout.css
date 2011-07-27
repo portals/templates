@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+.clear {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+#wok-header {
+	text-align: center;
+	text-decoration: none;
+	line-height: 30px;
+	width: 100%;
+	height: 32px;
+	position: fixed;
+	top: 0px;
+	z-index: 1000;
+}
+
+#trampLinks {
+	margin-left: 10px;
+	height: 30px;
+	float: left;
+}
+
+#trampLinks ul li {
+	text-transform: uppercase;
+	border-top-style: solid;
+	border-top-width: 2px;
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	line-height: 30px;
+	text-decoration: none;
+	float: left;
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+#trampLinks ul li:hover {
+	height: 28px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	padding-right: 5px;
+	padding-left: 5px;
+	line-height: 30px;
+	text-decoration: none;
+	float: left;
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+#trampLinks ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+}
+
+#actions {
+	float: right;
+	height: 32px;
+}
+
+#actions ul li {
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+	text-decoration: none;
+	float: left;
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+#actions ul li:hover {
+	height: 30px;
+	line-height: 32px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	text-decoration: none;
+	float: left;
+	list-style-position: inside;
+	list-style-type: none;
+}
+
+#actions ul li a {
+	text-decoration: none;
+	display: block;
+}
+
+#trampLogin,
+#trampUser {
+	padding: 0 16px;
+}
+
+#trampLoginPopup {
+	/*display:none;*/
+	position: absolute;
+	top:32px;
+	right:0px;
+	width: 400px;
+	/*height: 120px;*/
+}
+
+#trampUser {
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+
+#trampUserPopup {
+	display:none;
+	z-index: 1000;
+	position: absolute;
+	top:32px;
+	right:40px;
+	width: 200px;
+}
+
+#admin {
+	border-left-style: solid;
+	border-left-width: 1px;
+	width: 40px;
+	height: 32px;
+}
+
+#admin span.img, #admin span.img:hover {
+	padding: 3px 8px;
+	float: left;
+}
+
+ul#actions-menu li,
+ul#actions-menu li:hover {
+	float: none;
+}
+
+#trampMessages {
+	position: fixed;
+	top: 32px;
+	width: 100%;
+}
+
+#wok-footer {
+	float: left;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	height: 32px;
+	z-index: 1000;
+}
+
+#wok-footer #powered {
+	margin-right: 10px;
+	float: right;
+	line-height: 30px;
+	height: 30px;
+	width: auto;
+}
+
+#wok-footer #powered a {
+	color: black;
+	text-decoration: none;
+}
+
+#wok-footer #powered a:hover {
+	color: black;
+	text-decoration: underline;
+}

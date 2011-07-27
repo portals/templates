@@ -1,0 +1,525 @@
+
+body {
+    color: white;
+    background: rgb(39, 40, 44);
+    font-family: 'Droid Sans', arial, serif;
+    font-size: 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#widget-identity-login .panel {
+	background: rgb(46, 48, 52);
+	border-top: 1px solid #3c3e40;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/*
+	margin-top: 15px;
+	*/
+	margin-bottom: 15px;
+}
+
+#widget-identity .panel a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#widget-identity-login .panel button.register {
+    margin-top: 56px;
+    width: 180px;
+    margin-left:auto;
+    margin-right: auto;
+    height: 56px;
+}
+
+#widget-identity-login .panel .form.signin {
+    /*border-left: 1px solid #27282C;*/
+    border-right: 0;
+    min-height: 128px;
+}
+
+#widget-identity-login .panel .form {
+    border-right: 1px solid rgb(39, 40, 44);
+    min-height: 128px;
+    padding: 0 10px 0 9px;
+}
+
+#widget-identity-login .panel h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.796875) 0px 1px 1px;
+    font-family: 'Droid Sans', arial, serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100%;
+    margin-bottom: 1em;
+    font-weight: 400;
+}
+
+#widget-identity-login .panel p {
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+    font-size: 14px;
+}
+
+#widget-identity-login .field label {
+    color: #d0cfc9;
+    font-size: medium;
+    display: block;
+    margin-bottom:4px;
+}
+
+#widget-identity-login .field .text {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    padding-left: 10px;
+    width: 270px;
+    font-size: 16px;
+    height: 32px;
+    margin-bottom: 10px;
+    color: rgb(255,255,255);
+    background-color: rgb(68,68,68);
+    border: 1px solid rgb(46, 48, 52);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: rgba(0,0,0,0.7) 0px -1px 1px;
+    -moz-box-shadow: rgba(0,0,0,0.7) 0px -1px 1px;
+    box-shadow: rgba(0,0,0,0.7) 0px -1px 1px;
+}
+
+#widget-identity-login .field .checkbox {
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-right: 5px;
+}
+
+#widget-identity-login .field button,
+#widget-identity-login input[type="button"],
+#widget-identity-login .field .two-buttons-left,
+#widget-identity-login .field .two-buttons-right {
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: 36px;
+    font-size: 100%;
+    background-color: #eee;
+    border: 1px solid rgb(238,238,238);
+    color: rgb(80,80,80);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow:rgba(0, 0, 0, .5) 0px 1px 2px;
+    -moz-box-shadow:rgba(0, 0, 0, .5) 0px 1px 2px;
+    box-shadow:rgba(0, 0, 0, .5) 0px 1px 2px;
+    text-shadow: rgba(255,255,255,.5) 0px 1px 0px;
+    background:	-webkit-gradient(linear,
+    left top, left bottom,
+    color-stop(0.1, rgb(255,255,255)),
+    color-stop(0.46, rgb(238, 238, 238)),
+    color-stop(0.95, rgb(212, 213, 213)));
+    background:	-moz-linear-gradient(center top,
+    rgb(255,255,255) 10%,
+    rgb(238, 238, 238) 46%,
+    rgb(212, 213, 213) 95%);
+    cursor: pointer;
+}
+
+#widget-identity-login .field button:hover,
+#widget-identity-login input[type="button"]:hover,
+#widget-identity-login .field .two-buttons-left:hover,
+#widget-identity-login .field .two-buttons-right:hover {
+    color: rgb(40,40,40);
+    text-shadow: rgba(255,255,255,0.3) 0px 1px 0px;
+    background: #ddd;
+    background:-webkit-gradient(linear,
+    left top, left bottom,
+    color-stop(0.1, rgb(240,240,242)),
+    color-stop(0.45, rgb(228, 230, 232)),
+    color-stop(0.9, rgb(188, 188, 195)));
+    background: -moz-linear-gradient(center top,
+    rgb(240,240,242) 10%,
+    rgb(228, 230, 232) 45%,
+    rgb(188, 188, 195) 90%);
+}
+
+#widget-identity .panel .form {
+    border-right: 1px solid rgb(39, 40, 44);
+    min-height: 128px;
+    padding: 0 10px 0 9px;
+}
+
+#widget-identity-login fieldset {
+    border-color: #27282C;
+}
+
+/* from dark.css */
+.user-invoice, .user-invoices {
+	padding: 15px 30px;
+}
+
+.user-invoice .item-list {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.user-invoice .totals {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.user-invoices .active-invoices {
+	font-size:15px;
+	font-weight:bold;
+	padding-bottom: 5px;
+	text-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.user-invoices .archived-invoices {
+	font-size:15px;
+	font-weight:bold;
+	padding-bottom: 5px;
+	text-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#InvoiceLogo {
+	float: right;
+	margin: 25px;
+}
+
+.tooltip {
+	border:1px solid #000;
+	padding:10px 15px;
+	width:350px;
+	display:none;
+	text-align:left;
+	font-size:12px;
+
+	-moz-box-shadow:0 0 10px #000;
+    -webkit-box-shadow:0 0 10px #000;
+	box-shadow:0 0 10px #000;
+}
+
+#localization ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#localization ul li {
+    display: inline;
+}
+
+/*+++ Widget Identity +++*/
+#widget-identity .panel .form .form-internal {
+    width: 300px;
+    margin: 0 20px;
+}
+
+#widget-identity .panel .form-left {
+    width: 300px;
+    margin: 0 0 0 20px;
+    padding: 0 10px;
+    /* border-right: 1px solid #27282C; */
+}
+
+#widget-identity .panel .form-right {
+    width: 300px;
+    margin: 0 20px 0 0;
+    padding: 0 10px;
+    /* border-left: 1px solid #27282C; */
+}
+
+#widget-identity #Fiscalcode {
+    text-transform: uppercase;
+}
+
+#widget-identity .choicefield {
+    margin: 5px 0 15px 0;
+}
+
+#widget-identity .panel .lostpassword {
+    text-align: right;
+    width: 280px;
+    padding-top: 10px;
+}
+
+#widget-identity .panel .lostpassword a:hover {
+    text-decoration: underline;
+}
+
+#widget-identity .field.button-bar {
+    text-align: right;
+    margin-right: 5px;
+}
+
+#widget-identity .field.button-bar button {
+    width: auto;
+    margin-right: 5px;
+}
+
+h1 span.small-action {
+    font-size: 12px;
+    text-shadow: none;
+}
+
+label.disabled {
+    opacity:0.5;
+}
+
+/*** widget specific styles ***/
+
+/*** General widget ***/
+.widget {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #2E3034;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+}
+
+.widget .table .column {
+    border-bottom: 1px solid #27282C;
+}
+
+/*** e rates ***/
+#widget-e-rates .table .column {
+    font-size: 14px;
+    vertical-align: top;
+}
+
+#widget-e-rates .descr {
+    /* font-size: 14px; */
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+
+#widget-e-rates .price {
+    font-weight: bold;
+    float: left;
+}
+
+#widget-e-rates .price .cents {
+    font-size: 20px;
+}
+
+#widget-e-rates .price .integer {
+    font-size: 32px;
+}
+
+#widget-e-rates .buy {
+    text-align: right;
+    float: right;
+}
+
+#widget-e-rates .buy button {
+    background-color: #eee;
+    border: 1px solid rgb(238,238,238);
+    color: rgb(80,80,80);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow:rgba(0, 0, 0, .5) 0px 1px 2px;
+    -moz-box-shadow:rgba(0, 0, 0, .5) 0px 1px 2px;
+    box-shadow:rgba(0, 0, 0, .5) 0px 1px 2px;
+    text-shadow: rgba(255,255,255,.5) 0px 1px 0px;
+    background: -webkit-gradient(linear,
+    left top, left bottom,
+    color-stop(0.1, rgb(255,255,255)),
+    color-stop(0.46, rgb(238, 238, 238)),
+    color-stop(0.95, rgb(212, 213, 213)));
+    background: -moz-linear-gradient(center top,
+    rgb(255,255,255) 10%,
+    rgb(238, 238, 238) 46%,
+    rgb(212, 213, 213) 95%);
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 32px;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+#widget-e-rates .buy button:hover {
+    color: rgb(40,40,40);
+    text-shadow: rgba(255,255,255,0.3) 0px 1px 0px;
+    background: #ddd;
+    background:-webkit-gradient(linear,
+    left top, left bottom,
+    color-stop(0.1, rgb(240,240,242)),
+    color-stop(0.45, rgb(228, 230, 232)),
+    color-stop(0.9, rgb(188, 188, 195)));
+    background: -moz-linear-gradient(center top,
+    rgb(240,240,242) 10%,
+    rgb(228, 230, 232) 45%,
+    rgb(188, 188, 195) 90%);
+}
+
+#widget-e-rates .buy .login {
+    margin-top: 5px;
+    font-size: 85%;
+}
+
+#widget-e-rates .buy .login a {
+    text-decoration: underline;
+}
+
+#widget-e-rates .buy .verifyUserMsg {
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    text-align: left;
+    width: 175px;
+    border: 1px solid rgb(193, 95, 21);
+}
+
+/*** widget-rss ***/
+#widget-rss h3,
+.rss_item h3 {
+    font-size:18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rss_item p {
+    padding: 5px;
+}
+
+.rss_item img {
+    padding-right: 5px;
+}
+
+fieldset {
+    border: 1px solid white;
+    padding: 15px 5px 5px 8px;
+    /*margin-top: 15px;*/
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+
+fieldset legend {
+    padding: 0 5px;
+}
+
+.inline,
+#widget-identity .field label.inline,
+.form .field label.inline {
+    display:inline;
+    vertical-align: text-top;
+}
+
+.panel .field select {
+    font-size:14px;
+    width: 280px;
+    padding:4px 8px;
+    height: 32px;
+    cursor: pointer;
+    /*
+    margin-right: auto;
+    margin-left: auto;
+    */
+    margin-bottom:10px;
+    /*
+    * border: 1px solid rgb(227,227,227);
+    * border-radius: 4px 4px 4px 4px;
+    */
+    /*
+    * background:#eee;
+    * background:   -webkit-gradient(linear,
+    * left top, left bottom,
+    * color-stop(0.1, rgb(255,255,255)),
+    * color-stop(0.46, rgb(238, 238, 238)),
+    * color-stop(0.95, rgb(212, 213, 213)));
+    */
+    /*
+    * background:   -moz-linear-gradient(center top,
+    * rgb(255,255,255) 10%,
+    * rgb(238, 238, 238) 46%,
+    * rgb(212, 213, 213) 95%);
+    */
+    /*
+    * -webkit-border-radius:5px;
+    * -moz-border-radius:5px;
+    * border-radius:5px;
+    */
+    /*
+    * -webkit-box-shadow:rgba(0, 0, 0, .5) 0px 1px 2px;
+    * -moz-box-shadow:rgba(0, 0, 0, .5) 0px 1px 2px;
+    * box-shadow:rgba(0, 0, 0, .5) 0px 1px 2px;
+    */
+    /* text-shadow:rgb(255,255,255) 0px 1px 0px;  */
+}
+
+#questionSelect option {
+    padding: 5px;
+    border-top: 1px dotted;
+}
+
+#questionSelect option.custom {
+    padding-top: 15px;
+    border-top: 1px double;
+}
+
+#wok-container #main {
+    font-size:14px;
+    line-height: 110%;
+}
+
+/* widget map */
+
+#widget-map {
+}
+
+#widget-map iframe {
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+    border-top: 1px solid #3c3e40;
+}
+
+#widget-map a {
+    float: right;
+}
+
+/*** to be defined in color scheme ***
+
+.table .even {
+    background:rgb(247, 247, 247);
+}
+
+.user-invoices .archived-invoices {
+	color: #21759B;
+}
+
+#profile-menu li {
+	border-right-color: #3C3E40;
+}
+
+.tooltip {
+	background-color: #444444;
+	border-color: #C15F15;
+	color:#fff;
+}

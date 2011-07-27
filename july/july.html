@@ -7,13 +7,16 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/july.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/project24_h.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="css/project24.css" media="all" />		
+	<link rel="stylesheet" type="text/css" href="css/project24.css" media="all" />	
+
+	<link rel="stylesheet" type="text/css" href="css/960.css" media="all" />
+	
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
     </head>
     <body>
 	<div id="wok-header">
-	    <div id="actions">
+	    <div id="trampLinks">
 		<ul>
 		    <li><a href="#home">home</a></li>
 		    <li><a href="#faq">faq</a></li>
@@ -21,33 +24,33 @@
 		    <li><a href="#legal">legal</a></li>
 		</ul>
 	    </div>
-	    <div id="user">
-		<div id="login">
-		    <div id="login-glow"></div>
-		    <a id="login-button" href="#">Login/Register</a>
-		</div>
-		<div id="login-popup">
-		    <div id="login-signup">
-			<h1>Sono un nuovo utente</h1>
-			<!--button> Registrati </button-->
-		    </div>
-		    <div id="login-signin">
-			<h1>Sono già registrato</h1>
-			<!--button> Login </button-->
-		    </div>
-		</div>
-		<div id="admin"><span class="img"><a href="#" class="project24_h preferencespanel"></a></span></div>
-		<script type="text/javascript">
-		    $(document).ready(
-			    function () {
-			    $( "#login-glow" ).effect( 'pulsate', { mode:"hide", times:3 }, 2000 );
-			    $( "#login-button" ).click( function() {
-				$( "#login-popup" ).toggle( 'blind' , {}, 500 );
-				return false;
-				});
-			    });
-		</script>
+	    <div id="actions">
+			<ul>
+			<li id="trampLogin">
+				<a id="login-button" href="#">Login/Register</a>
+				<div id="trampLoginPopup" />
+				<script type="text/javascript">
+							$( "#login-button" ).click( function() {
+								// var popup = $("#widget-identity");
+								var popup = $("#trampPopup");
+								if (popup.is(":hidden")) {
+								    $(this).parent().addClass("selected");
+									popup.slideDown( 500 );
+								} else {
+									popup.slideUp( 500 );
+								    $(this).parent().removeClass("selected");
+								}
+								return false;
+							});
+				</script>
+			</li>
+			</ul>
 	    </div>
+	    <div class="clear"></div>
+	    <div id="trampMessages"></div>
+	    <div class="clear hsep"></div>
+	    <div id="banner"></div>
+	    <div class="clear"></div>
 	</div>
 	<div id="wok-container">
 	    <div id="tp-head">
@@ -60,6 +63,54 @@
 	</div>
 	<div id="wok-footer">
 	    <div id="powered">powered by <a href="http://www.trampolineup.com">Trampoline Portals</a></div>
+	</div>
+    <div id="trampPopup" >
+        <div id="widget-identity-login">
+		    <link rel="stylesheet" type="text/css" href="css/wok-container.css" media="all" />
+		    <div id="widget-identity" class="container_16">
+<div id="form-login">
+            <div class="form signup">
+                <h1>Sono un nuovo utente</h1>
+                <div class="form-internal">
+                    <div class="field register">
+                        <button type="button" class="register" onclick="window.location='/new-user'" name="new-user">
+                            Registrati
+                        </button>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="form signin">
+                <h1>Sono già registrato</h1>
+                <div class="form-internal">
+                <form method="POST" action="?_action=login">
+                    <div class="field">
+                        <label for="username">Email</label>
+                        <input class="text" id="username" name="username" type="text" autocapitalize="off" autocorrect="off" tabindex="1"/>
+                    </div>
+                    <div class="field password-div">
+                        <label for="password">Password</label>
+                        <input class="text" id="password" name="password" type="password" tabindex="2"/>
+                    </div>
+                    <div class="field">
+                        <input class="checkbox" id="remember" type="checkbox" name="persistent" value="true" tabindex="3"/>
+                        <label for="remember">Ricordami</label>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="field">
+                        <button id="signin" type="submit" tabindex="4">Login</button>
+                    </div>
+                    <div class="lostpassword">
+                        <a href="/password-lost">Hai dimenticato la password?</a>
+                    </div>
+                </form>
+                <div class="clear"></div>
+                </div>
+            </div>
+        <div class="clear"></div>
+</div>
+			</div>
+		</div>
 	</div>
     </body>
 </html>

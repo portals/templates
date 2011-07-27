@@ -1,0 +1,283 @@
+@charset "UTF-8";
+@import url(tramp-layout.css);
+
+.tooltip {
+    display: none;
+    font-size: 12px;
+    padding: 10px 15px;
+    text-align: left;
+    width: 350px;
+}
+
+:focus {outline:none;} ::-moz-focus-inner {border:0;}
+
+.showpwd {
+    display: inline-block !important;
+    vertical-align: middle;
+    margin-top: -6px;
+    margin-left: -26px;
+    z-index: 1;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.small-font {
+    font-size: 75%;
+    text-shadow: none;
+}
+
+.loading {
+	background: url(../img/ajax-loader.gif) no-repeat center;
+	height: 50px;
+}
+
+label.required:after {
+    color: red;
+    content: " *";
+}
+
+#trampPopup {
+	position: absolute;
+	top: 32px;
+	padding-bottom: 40px;
+	width: 100%;
+}
+
+#form-login {
+	width: 402px;
+	position: fixed;
+	top: 32px;
+	right: 0;
+}
+
+#form-login .signup,
+#form-login .signin {
+	width: 180px;
+	display: inline;
+	float: left;
+}
+
+#form-login .form.signin .field {
+	text-align: left;
+}
+
+/*
+#widget-identity .form input[type=checkbox] {
+	float: left;
+}
+*/
+
+#form-login .field label {
+    color: #444544;
+    margin-bottom: 4px;
+    /*
+    display: block;
+    font-size: medium;
+    text-align: left;
+    float: left;
+    */
+}
+
+#form-login .field input.text,
+#form-login .field input[type=text],
+#form-login .field input[type=password] {
+    -moz-box-sizing: content-box;
+    border-radius: 4px 4px 4px 4px;
+    font-size: 16px;
+    height: 24px;
+    margin-bottom: 10px;
+    padding-left: 4px;
+    width: 175px;
+    /*
+    float: left;
+    */
+}
+
+#form-login input[type=button],
+#form-login input[type=submit],
+#form-login input[type=reset],
+#form-login button {
+    width: 182px;
+}
+
+#form-login .lostpassword {
+    text-align: right;
+    width: 180px;
+    padding-top: 10px;
+}
+
+#form-login .lostpassword a:hover {
+    text-decoration: underline;
+}
+
+#widget-identity .panel p {
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+    font-size: 14px;
+}
+
+#widget-identity .help {
+    padding-right: 10px;
+}
+
+#widget-identity .help-text {
+    margin-top: 2em;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+
+#widget-identity .help-text ol,ul {
+    list-style-position: outside;
+}
+
+#widget-identity .help-text li {
+    margin-bottom: 5px;
+    line-height: 110%;
+    font-size: 14px;
+}
+
+#widget-identity .help-text ol {
+    list-style-type:decimal;
+}
+
+#widget-identity .help-text ul {
+    list-style-type: disc;
+}
+
+#wok-container {
+	width: 100%;
+	height: 100%;
+	clear: both;
+	padding: 48px 0;
+}
+
+.table {
+    font-size: 14px;
+    display:table;
+    background: transparent;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table .row {
+    display: table-row;
+}
+
+.table .rowhdr {
+    font-weight: bold;
+}
+
+.table .inactive, .table .inactive a, .inactive {
+    color: rgba(0,0,0, 0.4);
+}
+
+.table .column {
+    display: table-cell;
+    padding: 5px 5px 5px 5px;
+    border-bottom: 1px solid rgb(220,220,220);
+    font-size: 12px;
+}
+
+.table .colright, .inright {
+	text-align: right;
+	padding-right:1em;
+}
+
+.table .colhdr {
+    border: none;
+    font-weight: bold;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 1px 1px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.table .colhdr a {
+    text-decoration: none;
+}
+
+.table .colhdr a:hover {
+    color: rgb(213, 78, 33);
+    text-decoration: none;
+}
+
+.table #id, .table #hdr-id {
+    text-align: right;
+    width: 40px;
+}
+
+.table #id {
+    padding-right: 18px;
+}
+
+.table #hdr-username, .table #username {
+    width: auto;
+}
+
+.table #hdr-uname, .table #uname {
+    width: auto;
+}
+
+.table #hdr-title, .table #hdr-desc {
+    width: auto;
+}
+
+.table a, .table #editlink a, .table #deletelink a, .table #dwlndlink a {
+    color: rgb(33, 117, 155);
+    text-decoration: none;
+}
+
+.table a:hover, .table #editlink a:hover, .table #deletelink a:hover, .table #dwlndlink a:hover {
+    color: rgb(213, 78, 33);
+    text-decoration: none;
+}
+
+.table #editlink, .table #deletelink, .table #disablelink, .table #dwlndlink {
+    width: 50px;
+}
+
+/* Profile menu skinning: probably it will be moved or removed sooner or later*/
+
+#profile-menu ul {
+    margin-top: -15px;
+	margin-bottom:10px;
+    padding-top: 5px;
+	padding-bottom:5px;
+    /*border-top: 1px solid #3c3e40;*/
+	/*border-bottom:1px solid #3C3E40;*/
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px;
+}
+
+#profile-menu li {
+	padding: 0 10px 0 10px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    display: inline;
+}
+
+#profile-menu li.last {
+	border-right:none;
+}
+
+#profile-menu a {
+	text-decoration: none;
+}
+
+#wok-container iframe {
+	width: 100%;
+	display: block;
+	height: 600px;
+}
+
