@@ -138,15 +138,11 @@ ul#actions-menu li.userinfos:hover {
 }
 
 #admin {
-	/*
-	border-left-color: #21759B;
-	*/
 	border-left-color: #F9F9F9;
 }
 
 #wok-container {
-	margin-top: 32px;
-	margin-bottom: 48px;
+	margin-bottom: 20px;
 }
 
 #admin-panel .admin-head {
@@ -352,7 +348,6 @@ ul#actions-menu li.userinfos:hover {
 }
 
 #menu-accordion .admin-submenu {
-	display:none;
     background: white;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
@@ -1465,13 +1460,6 @@ fieldset legend {
     left: -7px;
 }
 
-/*
-    body { font-size: 62.5%; }
-    label, input { display:block; }
-    .ui-dialog .ui-state-error { padding: .3em; }
-    .validateTips { border: 1px solid transparent; padding: 0.3em; }
-*/
-
 #usercount.table1{
     padding:20px;
 }
@@ -1482,4 +1470,8 @@ fieldset legend {
 
 #instrument-cell.instrument-container{
 	height:195px;
+}
+
+#global_settings_form #maps {
+	padding: 10px;
 }

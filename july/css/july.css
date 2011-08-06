@@ -361,3 +361,57 @@ ul#actions-menu li.userinfos:hover {
 #form-login fieldset {
     border-color: #27282C;
 }
+
+/* messages for widget identity taken from dark.css */
+#widget-identity .welcomemsg,
+#widget-identity .form-error,
+#widget-identity .form-warn,
+#widget-identity .form-msg,
+#widget-identity .form-success {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 13px;
+    font-family: 'Droid Sans', arial, serif;
+    font-weight: 400;
+    font-size:22px;
+    background-color: rgb(223,223,223);
+    text-shadow:rgba(255, 255, 255, .5) 0px 1px 0px;
+    -webkit-box-shadow:rgba(0, 0, 0, .5) 0px 1px 3px;
+    -moz-box-shadow:rgba(0, 0, 0, .5) 0px 1px 3px;
+    box-shadow:rgba(0, 0, 0, .5) 0px 1px 3px;
+    /*border: 1px solid rgba(255, 255, 255, 1);*/
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    z-index:90;
+    clear: both;
+    line-height: 24px;
+}
+
+#widget-identity .welcomemsg, #widget-identity .form-msg {
+    color: rgb(92, 131, 47);
+}
+
+#widget-identity .form-msg a {
+    color: rgb(92, 131, 47);
+}
+
+#widget-identity .form-success {
+    color: rgb(0, 0, 0);
+    text-align:center;
+    font-size: 18px;
+}
+
+#widget-identity .form-warn {
+    color: rgb(175, 175, 0);
+    text-shadow:rgba(0, 0, 0, .3) 0px 1px 0px;
+}
+
+#widget-identity .form-warn a {
+    color: rgb(205, 205, 0);
+    text-shadow:rgba(0, 0, 0, .3) 0px 1px 0px;
+}
+
+#widget-identity .form-error, #widget-identity .form-error a {
+    color: rgb(193, 95, 21);
+}
