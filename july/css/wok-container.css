@@ -1,7 +1,11 @@
 
 body {
+/*
     color: white;
     background: rgb(39, 40, 44);
+*/
+	color: black;
+    background: white;
     font-family: 'Droid Sans', arial, serif;
     font-size: 14px;
 }
@@ -523,3 +527,5 @@ fieldset legend {
 	border-color: #C15F15;
 	color:#fff;
 }
+
+*/
