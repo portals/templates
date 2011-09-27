@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.1//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head profile="http://www.w3.org/2005/10/profile">
+		<title>${ZoneName} or ${NetName}</title>
+		<meta name="ROBOTS" content="INDEX, FOLLOW">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<link rel="icon" type="image/gif" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+		<!--link rel="stylesheet" type="text/css" href="mobi/css/jquery-ui-1.css"-->
+		<link rel="stylesheet" type="text/css" href="mobi/css/320.css" media="all">
+		<link rel="stylesheet" type="text/css" media="all" href="mobi/css/july.css">
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="mobi/js/trampWidgets.js"></script>
+	</head>
+
+<body>
+	<div id="wok-header" class="container_8">
+		<div id="banner" class="grid_8">
+			<div class="banner-text">${NetName} - ${ZoneName}</div>
+			<div class="banner-image"></div>
+		</div>
+		<div class="clear"></div>
+
+		<div id="actions" class="grid_8">
+			<div id="menu">
+				<div class="special_3">
+					<div class="special_1 special_alpha">
+						<div class="item">
+							<a href="#">Home</a>
+						</div>
+					</div>
+					<div class="special_1">
+						<div class="item">
+							<a href="#">Profile</a>
+						</div>
+					</div>
+					<div class="special_1 special_omega">
+						<div class="item">
+							<a href="#">Logout</a>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+
+		<div id="trampMessages" class="grid_8">
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$("#trampMessages .welcomemsg").delay(1000).fadeTo(1000, 0).hide("blind", 1000);
+					$("#trampMessages .form-msg").delay(3000).fadeTo(1000, 0).hide("blind", 1000);
+				});
+			</script>
+			<div>
+				<div class="form-msgs"></div>
+				<div class="form-errors"></div>
+			</div>
+		</div>
+
+		<div id="widget-identity" class="grid_8">
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$(".welcomemsg").delay(1000).fadeTo(1000, 0).hide("blind", 1000);
+				});
+			</script>
+			<div class="panel">
+				<div class="welcomemsg">Welcome back<span>, shawill</span>!</div>
+				<div id="user-msgs" class="form-errors"></div>
+				<div class="endborder"></div>
+				<div id="stats">
+					<div class="grid_4 alpha">
+						<ul>
+							<li>Username: <span>shawill</span></li>
+						</ul>
+					</div>
+					<div class="grid_4 omega">
+						<ul></ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div id="wok-container" class="container_8">
+		<div id="tp-head" class="hidden">
+			<link rel="stylesheet" type="text/css" href="mobi/css/custom.css" media="all" />
+		</div>
+
+		<div id="tp-body" class="grid_8">
+			<div>
+				<div id="widget-simple">
+					<br />
+					<center>wok-container</center>
+					<br />
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div id="widget-map-box"></div>
+
+			<div id="widget-e-rates-box"></div>
+
+		</div>
+
+		<div id="tp-footer" class="grid_8"></div>
+
+		<script type="text/javascript">
+			TrampWidgetERates("#widget-e-rates-box");
+			TrampWidgetMap("#widget-map-box", {width: 296, height: 350, zoom: 17});
+		</script>
+
+	</div>
+
+	<div id="wok-footer" class="container_8">
+		<div id="wok-footer-in" class="grid_8">
+			<div class="footer-text">
+			 Powered by <a href="http://www.trampolineup.com/">Trampoline</a> - Mobile Wireless
+			Portals
+			</div>
+			<div class="footer-image"></div>
+		</div>
+	</div>
+
+</body>
+
+</html>

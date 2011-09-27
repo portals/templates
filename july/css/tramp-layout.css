@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+html, body {
+	height: 100%;
+}
+
 .clear {
 	clear: both;
 }
@@ -171,11 +175,13 @@ ul#actions-menu li:hover {
 
 #wok-footer {
 	float: left;
-	position: fixed;
+	position: absolute; /* fixed; */
 	width: 100%;
-	bottom: 0px;
 	height: 48px;
+	/*
+	bottom: 0px;
 	z-index: 1000;
+	*/
 }
 
 #wok-footer #powered {
@@ -210,7 +216,50 @@ ul#actions-menu li:hover {
     text-decoration: underline;
 }
 
+#wok-container:before {
+    content:"";
+    display:block;
+    position:relative;
+    left:0;
+    width:100%;
+    height:48px;
+    top:0;
+    background:rgb(255,255,255);
+}
+
+#wok-container:after {
+    content:"";
+    display:block;
+    position:relative;
+    left:0;
+    width:100%;
+    height:48px;
+    top:0;
+    background:rgb(255,255,255);
+}
+
 #wok-container {
+	min-height: 100%;
+	//top: 48px;
+	position: relative;
+
+	height: auto !important;
 	height: 100%;
-	padding: 48px 0;
+	margin: 0 auto -48px; /* the bottom margin is the negative value of the footer's height */
+}
+
+#PPBuyERate .field {
+	margin: 0 0 15px 5px;
+}
+
+#PPBuyERate .field .desc {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-bottom: 2px;
+	font-weight: bold;
+}
+
+#PPBuyERate .field .val {
+	padding-left: 30px;
+	margin-top: 2px;
 }

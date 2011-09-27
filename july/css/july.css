@@ -362,6 +362,10 @@ ul#actions-menu li.userinfos:hover {
     border-color: #27282C;
 }
 
+#PPBuyERate .field .desc {
+	border-bottom-color: #27282C;
+}
+
 /* messages for widget identity taken from dark.css */
 #widget-identity .welcomemsg,
 #widget-identity .form-error,
