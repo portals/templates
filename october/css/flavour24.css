@@ -1,0 +1,2373 @@
+.flavour24 {
+	background:url('/skins/default/ui/img/flavour24.png') no-repeat top left; display:inline-block;
+}
+.flavour24.addressbook {
+	background-position:0px -0px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.addressbook:hover {
+	background-position:-24px -0px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.addressbook_user {
+	background-position:0px -24px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.addressbook_user:hover {
+	background-position:-24px -24px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.applications {
+	background-position:0px -48px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.applications:hover {
+	background-position:-24px -48px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.bomb {
+	background-position:0px -72px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.bomb:hover {
+	background-position:-24px -72px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.box_download {
+	background-position:0px -96px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.box_download:hover {
+	background-position:-24px -96px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.brainstorming {
+	background-position:0px -120px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.brainstorming:hover {
+	background-position:-24px -120px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.browser {
+	background-position:0px -144px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.browser:hover {
+	background-position:-24px -144px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.burning {
+	background-position:0px -168px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.burning:hover {
+	background-position:-24px -168px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_add {
+	background-position:0px -192px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_add:hover {
+	background-position:-24px -192px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_close {
+	background-position:0px -216px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_close:hover {
+	background-position:-24px -216px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_delete {
+	background-position:0px -240px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_delete:hover {
+	background-position:-24px -240px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_fastforward {
+	background-position:0px -264px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_fastforward:hover {
+	background-position:-24px -264px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_heart {
+	background-position:0px -288px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_heart:hover {
+	background-position:-24px -288px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_pause {
+	background-position:0px -312px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_pause:hover {
+	background-position:-24px -312px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_play {
+	background-position:0px -336px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_play:hover {
+	background-position:-24px -336px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_record {
+	background-position:0px -360px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_record:hover {
+	background-position:-24px -360px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_rewind {
+	background-position:0px -384px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_rewind:hover {
+	background-position:-24px -384px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_stop {
+	background-position:0px -408px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_blue_stop:hover {
+	background-position:-24px -408px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_add {
+	background-position:0px -432px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_add:hover {
+	background-position:-24px -432px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_close {
+	background-position:0px -456px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_close:hover {
+	background-position:-24px -456px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_delete {
+	background-position:0px -480px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_delete:hover {
+	background-position:-24px -480px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_fastforward {
+	background-position:0px -504px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_fastforward:hover {
+	background-position:-24px -504px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_heart {
+	background-position:0px -528px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_heart:hover {
+	background-position:-24px -528px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_pause {
+	background-position:0px -552px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_pause:hover {
+	background-position:-24px -552px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_play {
+	background-position:0px -576px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_play:hover {
+	background-position:-24px -576px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_record {
+	background-position:0px -600px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_record:hover {
+	background-position:-24px -600px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_rewind {
+	background-position:0px -624px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_rewind:hover {
+	background-position:-24px -624px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_stop {
+	background-position:0px -648px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_green_stop:hover {
+	background-position:-24px -648px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_add {
+	background-position:0px -672px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_add:hover {
+	background-position:-24px -672px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_close {
+	background-position:0px -696px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_close:hover {
+	background-position:-24px -696px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_delete {
+	background-position:0px -720px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_delete:hover {
+	background-position:-24px -720px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_fastforward {
+	background-position:0px -744px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_fastforward:hover {
+	background-position:-24px -744px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_heart {
+	background-position:0px -768px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_heart:hover {
+	background-position:-24px -768px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_pause {
+	background-position:0px -792px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_pause:hover {
+	background-position:-24px -792px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_play {
+	background-position:0px -816px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_play:hover {
+	background-position:-24px -816px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_record {
+	background-position:0px -840px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_record:hover {
+	background-position:-24px -840px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_rewind {
+	background-position:0px -864px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_rewind:hover {
+	background-position:-24px -864px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_stop {
+	background-position:0px -888px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_grey_stop:hover {
+	background-position:-24px -888px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_add {
+	background-position:0px -912px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_add:hover {
+	background-position:-24px -912px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_close {
+	background-position:0px -936px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_close:hover {
+	background-position:-24px -936px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_delete {
+	background-position:0px -960px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_delete:hover {
+	background-position:-24px -960px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_fastforward {
+	background-position:0px -984px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_fastforward:hover {
+	background-position:-24px -984px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_heart {
+	background-position:0px -1008px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_heart:hover {
+	background-position:-24px -1008px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_pause {
+	background-position:0px -1032px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_pause:hover {
+	background-position:-24px -1032px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_play {
+	background-position:0px -1056px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_play:hover {
+	background-position:-24px -1056px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_record {
+	background-position:0px -1080px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_record:hover {
+	background-position:-24px -1080px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_rewind {
+	background-position:0px -1104px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_rewind:hover {
+	background-position:-24px -1104px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_stop {
+	background-position:0px -1128px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_pink_stop:hover {
+	background-position:-24px -1128px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_add {
+	background-position:0px -1152px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_add:hover {
+	background-position:-24px -1152px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_close {
+	background-position:0px -1176px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_close:hover {
+	background-position:-24px -1176px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_delete {
+	background-position:0px -1200px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_delete:hover {
+	background-position:-24px -1200px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_fastforward {
+	background-position:0px -1224px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_fastforward:hover {
+	background-position:-24px -1224px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_heart {
+	background-position:0px -1248px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_heart:hover {
+	background-position:-24px -1248px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_pause {
+	background-position:0px -1272px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_pause:hover {
+	background-position:-24px -1272px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_play {
+	background-position:0px -1296px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_play:hover {
+	background-position:-24px -1296px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_record {
+	background-position:0px -1320px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_record:hover {
+	background-position:-24px -1320px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_rewind {
+	background-position:0px -1344px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_rewind:hover {
+	background-position:-24px -1344px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_stop {
+	background-position:0px -1368px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_red_stop:hover {
+	background-position:-24px -1368px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_add {
+	background-position:0px -1392px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_add:hover {
+	background-position:-24px -1392px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_close {
+	background-position:0px -1416px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_close:hover {
+	background-position:-24px -1416px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_delete {
+	background-position:0px -1440px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_delete:hover {
+	background-position:-24px -1440px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_fastforward {
+	background-position:0px -1464px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_fastforward:hover {
+	background-position:-24px -1464px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_heart {
+	background-position:0px -1488px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_heart:hover {
+	background-position:-24px -1488px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_pause {
+	background-position:0px -1512px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_pause:hover {
+	background-position:-24px -1512px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_play {
+	background-position:0px -1536px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_play:hover {
+	background-position:-24px -1536px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_record {
+	background-position:0px -1560px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_record:hover {
+	background-position:-24px -1560px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_rewind {
+	background-position:0px -1584px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_rewind:hover {
+	background-position:-24px -1584px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_stop {
+	background-position:0px -1608px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.button_violet_stop:hover {
+	background-position:-24px -1608px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.calculator {
+	background-position:0px -1632px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.calculator:hover {
+	background-position:-24px -1632px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.case {
+	background-position:0px -1656px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.case:hover {
+	background-position:-24px -1656px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.chart {
+	background-position:0px -1680px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.chart:hover {
+	background-position:-24px -1680px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.chart_pie {
+	background-position:0px -1704px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.chart_pie:hover {
+	background-position:-24px -1704px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.check {
+	background-position:0px -1728px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.check:hover {
+	background-position:-24px -1728px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.clock {
+	background-position:0px -1752px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.clock:hover {
+	background-position:-24px -1752px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.color_wheel {
+	background-position:0px -1776px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.color_wheel:hover {
+	background-position:-24px -1776px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.copy-document {
+	background-position:0px -1800px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.copy-document:hover {
+	background-position:-24px -1800px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_gold_amex {
+	background-position:0px -1824px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_gold_amex:hover {
+	background-position:-24px -1824px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_gold_diners_club {
+	background-position:0px -1848px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_gold_diners_club:hover {
+	background-position:-24px -1848px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_gold_master_card {
+	background-position:0px -1872px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_gold_master_card:hover {
+	background-position:-24px -1872px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_gold_paypal {
+	background-position:0px -1896px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_gold_paypal:hover {
+	background-position:-24px -1896px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_gold_visa {
+	background-position:0px -1920px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_gold_visa:hover {
+	background-position:-24px -1920px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_platinum_amex {
+	background-position:0px -1944px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_platinum_amex:hover {
+	background-position:-24px -1944px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_platinum_diners_club {
+	background-position:0px -1968px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_platinum_diners_club:hover {
+	background-position:-24px -1968px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_platinum_master_card {
+	background-position:0px -1992px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_platinum_master_card:hover {
+	background-position:-24px -1992px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_platinum_paypal {
+	background-position:0px -2016px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_platinum_paypal:hover {
+	background-position:-24px -2016px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_platinum_via {
+	background-position:0px -2040px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.credit-card_platinum_via:hover {
+	background-position:-24px -2040px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.database {
+	background-position:0px -2064px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.database:hover {
+	background-position:-24px -2064px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.database_add {
+	background-position:0px -2088px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.database_add:hover {
+	background-position:-24px -2088px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.database_alert {
+	background-position:0px -2112px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.database_alert:hover {
+	background-position:-24px -2112px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.database_check {
+	background-position:0px -2136px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.database_check:hover {
+	background-position:-24px -2136px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.database_delete {
+	background-position:0px -2160px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.database_delete:hover {
+	background-position:-24px -2160px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.database_download {
+	background-position:0px -2184px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.database_download:hover {
+	background-position:-24px -2184px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.document-lined-pen {
+	background-position:0px -2208px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.document-lined-pen:hover {
+	background-position:-24px -2208px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.document-plaid-pen {
+	background-position:0px -2232px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.document-plaid-pen:hover {
+	background-position:-24px -2232px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.document_blank {
+	background-position:0px -2256px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.document_blank:hover {
+	background-position:-24px -2256px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.document_pen {
+	background-position:0px -2280px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.document_pen:hover {
+	background-position:-24px -2280px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_biggrin {
+	background-position:0px -2304px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_biggrin:hover {
+	background-position:-24px -2304px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_love {
+	background-position:0px -2328px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_love:hover {
+	background-position:-24px -2328px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_nerd {
+	background-position:0px -2352px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_nerd:hover {
+	background-position:-24px -2352px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_nerd_penholder {
+	background-position:0px -2376px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_nerd_penholder:hover {
+	background-position:-24px -2376px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_sad {
+	background-position:0px -2400px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_sad:hover {
+	background-position:-24px -2400px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_smile {
+	background-position:0px -2424px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_smile:hover {
+	background-position:-24px -2424px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_wink {
+	background-position:0px -2448px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_wink:hover {
+	background-position:-24px -2448px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_woohoooo {
+	background-position:0px -2472px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.emote_woohoooo:hover {
+	background-position:-24px -2472px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.entry_add {
+	background-position:0px -2496px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.entry_add:hover {
+	background-position:-24px -2496px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.entry_alert {
+	background-position:0px -2520px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.entry_alert:hover {
+	background-position:-24px -2520px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.entry_delete {
+	background-position:0px -2544px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.entry_delete:hover {
+	background-position:-24px -2544px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.entry_preview {
+	background-position:0px -2568px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.entry_preview:hover {
+	background-position:-24px -2568px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.entry_save {
+	background-position:0px -2592px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.entry_save:hover {
+	background-position:-24px -2592px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.entry_saved {
+	background-position:0px -2616px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.entry_saved:hover {
+	background-position:-24px -2616px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.file_pdf {
+	background-position:0px -2640px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.file_pdf:hover {
+	background-position:-24px -2640px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.file_vcf {
+	background-position:0px -2664px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.file_vcf:hover {
+	background-position:-24px -2664px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.file_xls {
+	background-position:0px -2688px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.file_xls:hover {
+	background-position:-24px -2688px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.file_xml {
+	background-position:0px -2712px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.file_xml:hover {
+	background-position:-24px -2712px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.floppy-disk {
+	background-position:0px -2736px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.floppy-disk:hover {
+	background-position:-24px -2736px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.floppy-disk_dos {
+	background-position:0px -2760px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.floppy-disk_dos:hover {
+	background-position:-24px -2760px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.fullscreen {
+	background-position:0px -2784px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.fullscreen:hover {
+	background-position:-24px -2784px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.ical {
+	background-position:0px -2808px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.ical:hover {
+	background-position:-24px -2808px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.invoice {
+	background-position:0px -2832px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.invoice:hover {
+	background-position:-24px -2832px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.iphone {
+	background-position:0px -2856px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.iphone:hover {
+	background-position:-24px -2856px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.knife {
+	background-position:0px -2880px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.knife:hover {
+	background-position:-24px -2880px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.knife_bloody {
+	background-position:0px -2904px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.knife_bloody:hover {
+	background-position:-24px -2904px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.lock_closed {
+	background-position:0px -2928px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.lock_closed:hover {
+	background-position:-24px -2928px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.lock_open {
+	background-position:0px -2952px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.lock_open:hover {
+	background-position:-24px -2952px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.magic_wand {
+	background-position:0px -2976px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.magic_wand:hover {
+	background-position:-24px -2976px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_add {
+	background-position:0px -3000px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_add:hover {
+	background-position:-24px -3000px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_alert {
+	background-position:0px -3024px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_alert:hover {
+	background-position:-24px -3024px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_check {
+	background-position:0px -3048px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_check:hover {
+	background-position:-24px -3048px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_delete {
+	background-position:0px -3072px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_delete:hover {
+	background-position:-24px -3072px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_download {
+	background-position:0px -3096px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_download:hover {
+	background-position:-24px -3096px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_forward {
+	background-position:0px -3120px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_forward:hover {
+	background-position:-24px -3120px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_plain {
+	background-position:0px -3144px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_plain:hover {
+	background-position:-24px -3144px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_reply {
+	background-position:0px -3168px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.mail_reply:hover {
+	background-position:-24px -3168px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.moleskine_black {
+	background-position:0px -3192px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.moleskine_black:hover {
+	background-position:-24px -3192px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.moleskine_red {
+	background-position:0px -3216px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.moleskine_red:hover {
+	background-position:-24px -3216px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_1 {
+	background-position:0px -3240px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_1:hover {
+	background-position:-24px -3240px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_10 {
+	background-position:0px -3264px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_10:hover {
+	background-position:-24px -3264px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_100 {
+	background-position:0px -3288px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_100:hover {
+	background-position:-24px -3288px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_100_coins {
+	background-position:0px -3312px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_100_coins:hover {
+	background-position:-24px -3312px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_10_coins {
+	background-position:0px -3336px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_10_coins:hover {
+	background-position:-24px -3336px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_1_coins {
+	background-position:0px -3360px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_1_coins:hover {
+	background-position:-24px -3360px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_20 {
+	background-position:0px -3384px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_20:hover {
+	background-position:-24px -3384px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_20_coins {
+	background-position:0px -3408px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_20_coins:hover {
+	background-position:-24px -3408px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_5 {
+	background-position:0px -3432px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_5:hover {
+	background-position:-24px -3432px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_50 {
+	background-position:0px -3456px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_50:hover {
+	background-position:-24px -3456px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_50_coins {
+	background-position:0px -3480px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_50_coins:hover {
+	background-position:-24px -3480px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_5_coins {
+	background-position:0px -3504px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.money_5_coins:hover {
+	background-position:-24px -3504px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.monitor {
+	background-position:0px -3528px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.monitor:hover {
+	background-position:-24px -3528px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.preferences {
+	background-position:0px -3552px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.preferences:hover {
+	background-position:-24px -3552px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.printer {
+	background-position:0px -3576px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.printer:hover {
+	background-position:-24px -3576px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss {
+	background-position:0px -3600px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss:hover {
+	background-position:-24px -3600px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss_alternative {
+	background-position:0px -3624px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss_alternative:hover {
+	background-position:-24px -3624px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss_circle {
+	background-position:0px -3648px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss_circle:hover {
+	background-position:-24px -3648px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss_circle_comments {
+	background-position:0px -3672px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss_circle_comments:hover {
+	background-position:-24px -3672px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss_comments {
+	background-position:0px -3696px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss_comments:hover {
+	background-position:-24px -3696px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss_square {
+	background-position:0px -3720px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss_square:hover {
+	background-position:-24px -3720px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss_square_comments {
+	background-position:0px -3744px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.rss_square_comments:hover {
+	background-position:-24px -3744px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.search {
+	background-position:0px -3768px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.search:hover {
+	background-position:-24px -3768px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.security {
+	background-position:0px -3792px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.security:hover {
+	background-position:-24px -3792px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.shopping_basket {
+	background-position:0px -3816px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.shopping_basket:hover {
+	background-position:-24px -3816px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.show_reel {
+	background-position:0px -3840px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.show_reel:hover {
+	background-position:-24px -3840px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.speed_kmh {
+	background-position:0px -3864px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.speed_kmh:hover {
+	background-position:-24px -3864px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.speed_mph {
+	background-position:0px -3888px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.speed_mph:hover {
+	background-position:-24px -3888px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_blue {
+	background-position:0px -3912px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_blue:hover {
+	background-position:-24px -3912px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_brown {
+	background-position:0px -3936px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_brown:hover {
+	background-position:-24px -3936px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_green {
+	background-position:0px -3960px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_green:hover {
+	background-position:-24px -3960px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_lightblue {
+	background-position:0px -3984px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_lightblue:hover {
+	background-position:-24px -3984px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_lightgreen {
+	background-position:0px -4008px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_lightgreen:hover {
+	background-position:-24px -4008px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_orange {
+	background-position:0px -4032px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_orange:hover {
+	background-position:-24px -4032px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_pink {
+	background-position:0px -4056px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_pink:hover {
+	background-position:-24px -4056px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_rose {
+	background-position:0px -4080px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_rose:hover {
+	background-position:-24px -4080px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_violet {
+	background-position:0px -4104px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_beta_violet:hover {
+	background-position:-24px -4104px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_blue {
+	background-position:0px -4128px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_blue:hover {
+	background-position:-24px -4128px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_brown {
+	background-position:0px -4152px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_brown:hover {
+	background-position:-24px -4152px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_green1 {
+	background-position:0px -4176px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_green1:hover {
+	background-position:-24px -4176px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_green2 {
+	background-position:0px -4200px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_green2:hover {
+	background-position:-24px -4200px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_lightblue {
+	background-position:0px -4224px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_lightblue:hover {
+	background-position:-24px -4224px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_blue {
+	background-position:0px -4248px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_blue:hover {
+	background-position:-24px -4248px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_brown {
+	background-position:0px -4272px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_brown:hover {
+	background-position:-24px -4272px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_green1 {
+	background-position:0px -4296px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_green1:hover {
+	background-position:-24px -4296px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_green2 {
+	background-position:0px -4320px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_green2:hover {
+	background-position:-24px -4320px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_lightblue {
+	background-position:0px -4344px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_lightblue:hover {
+	background-position:-24px -4344px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_orange {
+	background-position:0px -4368px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_orange:hover {
+	background-position:-24px -4368px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_pink {
+	background-position:0px -4392px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_pink:hover {
+	background-position:-24px -4392px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_rose {
+	background-position:0px -4416px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_rose:hover {
+	background-position:-24px -4416px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_violet {
+	background-position:0px -4440px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_new_violet:hover {
+	background-position:-24px -4440px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_orange {
+	background-position:0px -4464px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_orange:hover {
+	background-position:-24px -4464px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_pink {
+	background-position:0px -4488px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_pink:hover {
+	background-position:-24px -4488px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_rose {
+	background-position:0px -4512px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_rose:hover {
+	background-position:-24px -4512px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_violet {
+	background-position:0px -4536px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.splash_violet:hover {
+	background-position:-24px -4536px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.star {
+	background-position:0px -4560px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.star:hover {
+	background-position:-24px -4560px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.star_empty {
+	background-position:0px -4584px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.star_empty:hover {
+	background-position:-24px -4584px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.star_half {
+	background-position:0px -4608px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.star_half:hover {
+	background-position:-24px -4608px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.super_mario_coin {
+	background-position:0px -4632px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.super_mario_coin:hover {
+	background-position:-24px -4632px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.tag {
+	background-position:0px -4656px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.tag:hover {
+	background-position:-24px -4656px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.tag_barcode {
+	background-position:0px -4680px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.tag_barcode:hover {
+	background-position:-24px -4680px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.tag_white {
+	background-position:0px -4704px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.tag_white:hover {
+	background-position:-24px -4704px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.tag_white_barcode {
+	background-position:0px -4728px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.tag_white_barcode:hover {
+	background-position:-24px -4728px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.terminal {
+	background-position:0px -4752px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.terminal:hover {
+	background-position:-24px -4752px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.to-do-list {
+	background-position:0px -4776px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.to-do-list:hover {
+	background-position:-24px -4776px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.to-do-list_checked1 {
+	background-position:0px -4800px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.to-do-list_checked1:hover {
+	background-position:-24px -4800px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.to-do-list_checked2 {
+	background-position:0px -4824px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.to-do-list_checked2:hover {
+	background-position:-24px -4824px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.to-do-list_checked3 {
+	background-position:0px -4848px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.to-do-list_checked3:hover {
+	background-position:-24px -4848px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user {
+	background-position:0px -4872px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user:hover {
+	background-position:-24px -4872px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_add {
+	background-position:0px -4896px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_add:hover {
+	background-position:-24px -4896px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_alert {
+	background-position:0px -4920px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_alert:hover {
+	background-position:-24px -4920px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_check {
+	background-position:0px -4944px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_check:hover {
+	background-position:-24px -4944px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_count {
+	background-position:0px -4968px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_count:hover {
+	background-position:-24px -4968px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_delete {
+	background-position:0px -4992px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_delete:hover {
+	background-position:-24px -4992px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_download {
+	background-position:0px -5016px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_download:hover {
+	background-position:-24px -5016px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group {
+	background-position:0px -5040px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group:hover {
+	background-position:-24px -5040px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group_add {
+	background-position:0px -5064px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group_add:hover {
+	background-position:-24px -5064px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group_alert {
+	background-position:0px -5088px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group_alert:hover {
+	background-position:-24px -5088px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group_check {
+	background-position:0px -5112px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group_check:hover {
+	background-position:-24px -5112px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group_count {
+	background-position:0px -5136px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group_count:hover {
+	background-position:-24px -5136px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group_delete {
+	background-position:0px -5160px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group_delete:hover {
+	background-position:-24px -5160px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group_download {
+	background-position:0px -5184px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.user_group_download:hover {
+	background-position:-24px -5184px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.vcard {
+	background-position:0px -5208px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.vcard:hover {
+	background-position:-24px -5208px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.vcard_add {
+	background-position:0px -5232px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.vcard_add:hover {
+	background-position:-24px -5232px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.vcard_check {
+	background-position:0px -5256px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.vcard_check:hover {
+	background-position:-24px -5256px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.vcard_delete {
+	background-position:0px -5280px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.vcard_delete:hover {
+	background-position:-24px -5280px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.vcard_download {
+	background-position:0px -5304px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.vcard_download:hover {
+	background-position:-24px -5304px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.vcard_forward {
+	background-position:0px -5328px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.vcard_forward:hover {
+	background-position:-24px -5328px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet {
+	background-position:0px -5352px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet:hover {
+	background-position:-24px -5352px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_bills {
+	background-position:0px -5376px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_bills:hover {
+	background-position:-24px -5376px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_coins {
+	background-position:0px -5400px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_coins:hover {
+	background-position:-24px -5400px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_louis_vuitton {
+	background-position:0px -5424px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_louis_vuitton:hover {
+	background-position:-24px -5424px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_louis_vuitton_bills {
+	background-position:0px -5448px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_louis_vuitton_bills:hover {
+	background-position:-24px -5448px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_louis_vuitton_coins {
+	background-position:0px -5472px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_louis_vuitton_coins:hover {
+	background-position:-24px -5472px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_louis_vuitton_money {
+	background-position:0px -5496px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_louis_vuitton_money:hover {
+	background-position:-24px -5496px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_money {
+	background-position:0px -5520px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.wallet_money:hover {
+	background-position:-24px -5520px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.web_blue {
+	background-position:0px -5544px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.web_blue:hover {
+	background-position:-24px -5544px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.web_violet {
+	background-position:0px -5568px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.web_violet:hover {
+	background-position:-24px -5568px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.window_osx {
+	background-position:0px -5592px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.window_osx:hover {
+	background-position:-24px -5592px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.zoom_in {
+	background-position:0px -5616px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.zoom_in:hover {
+	background-position:-24px -5616px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.zoom_original {
+	background-position:0px -5640px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.zoom_original:hover {
+	background-position:-24px -5640px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.zoom_out {
+	background-position:0px -5664px;
+	width: 24px;
+	height: 24px;
+}
+.flavour24.zoom_out:hover {
+	background-position:-24px -5664px;
+	width: 24px;
+	height: 24px;
+}

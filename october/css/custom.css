@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Kreon:300,400&v2);
+
+#tp-head {
+	display: none;
+}
+
+#tp-body {
+    font-family: Kreon, serif;
+    font-weight: 300;
+    width: 100%;
+}
+
+#tp-footer {
+    background-color: rgb(237,237,237);
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-shadow: 0px 1px 0px rgb(255,255,255);
+    color: rgb(118,129,140);
+    width: 100%;
+    border-top: 1px solid rgb(204,204,204);
+    padding-top: 10px;
+    /*
+    bottom:48px;
+    position: relative;
+    */
+}
+/*
+#tp-footer:before  {
+    content:"";
+    display:block;
+    position:absolute;
+    left:0;
+    width:100%;
+    height:1px; 
+    bottom:0;
+    background: rgb(255,255,255);
+}
+*/
+#tp-footer .linktitle {
+    color: rgb(0,0,0);
+    font-variant:normal;
+    font-style: normal;
+    border-bottom:1px solid rgb(255,255,255);
+    position: relative;
+    padding: 6px;
+}
+
+#tp-footer .linktitle:before  {
+    content:"";
+    display:block;
+    position:absolute;
+    left:0;
+    width:100%;
+    height:1px; 
+    bottom:0;
+    background: rgb(204,204,204);
+}
+
+#tp-footer .linkbar li a {
+    color: rgb(118,129,140);
+    text-decoration: none;
+}
+
+#tp-footer .linkbar li a:hover {
+    color: rgb(118,129,140);
+    text-decoration: underline;
+}
+
+#tp-footer .linkbar {
+    padding: 6px;    
+}
+
+#tp-footer .linkbar li {
+    padding: 3px 0;
+}
+
+#rss-items {
+    font-family: Kreon, sans-serif;
+}

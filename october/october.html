@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://www.w3.org/2005/10/profile">
+
+  <title>ACME Wireless - Default Zone</title>
+  <meta name="ROBOTS" content="INDEX, FOLLOW" />
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+  <link rel="icon" type="image/gif" href="img/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="css/gcons.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="css/flags24.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="css/flavour24.css" media="all" /><!--october-->
+  <link rel="stylesheet" type="text/css" media="all" href="css/october.css" />
+  <script type="text/javascript" src="js/october.js"></script>
+  <script type="text/javascript" src="js/jquery-1.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
+  <script type="text/javascript" src="js/bootstrap-alerts.js"></script>
+  <script type="text/javascript" src="js/bootstrap-modal.js"></script>
+  <script type="text/javascript" src="js/bootstrap-twipsy.js"></script>
+  <script type="text/javascript" src="js/bootstrap-popover.js"></script>
+  <script type="text/javascript" src="js/trampWidgets.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/widgets.css" media="all" />
+</head>
+
+<body>
+  <div id="wok-header">
+    <div class="topbar topbar-inner" id="trampTopbar">
+      <div id="trampLinks">
+        <h3><a href="#home">Placejam</a></h3>
+
+        <ul class="nav">
+          <li><a href="#faq">faq</a></li>
+
+          <li><a href="#help">help</a></li>
+
+          <li><a href="#legal">legal</a></li>
+        </ul>
+      </div>
+
+      <div id="actions">
+        <ul class="nav secondary-nav">
+          <li id="trampUser" class="dropdown" data-dropdown="dropdown">
+            <a class="dropdown-toggle" href="#">shawill@trmpln.com</a>
+
+            <ul class="dropdown-menu">
+              <li class="userinfos">
+                <ul>
+                  <li>Francesco Varano</li>
+
+                  <li>shawill@trmpln.com</li>
+                </ul>
+              </li>
+
+              <li><a id="profile_lnk" href="#" onclick="profileOpen();return false;" name="profile_lnk">Profilo</a></li>
+
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </li>
+
+          <li id="admin"></li>
+        </ul>
+      </div>
+    </div><!--div class="clear" /-->
+
+    <div id="trampMessages">
+      <script type="text/javascript">
+//<![CDATA[
+      $(document).ready(function() {
+        setTimeout('$("#trampMessages .alert-message.info .close").click()',1000)
+        setTimeout('$("#trampMessages .alert-message.success .close").click()',3000)
+
+        if ( $("#trampRadiusErrors .form-error").size() == 1 )
+            $("#genericError").show();
+      });
+      //]]>
+      </script>
+
+      <div class="trampMessages container">
+        <div class="form-msgs span12 offset2">
+          <!--div t:if="welcome" class="welcomemsg">${_("Benvenuto")}, ${$identity}!</div-->
+        </div>
+
+        <div class="form-errors span12 offset2"></div>
+      </div>
+    </div><!--div class="clear hsep" /-->
+
+    <div id="widget-identity" class="container">
+      <script type="text/javascript">
+//<![CDATA[
+      $(document).ready(function() {
+      $("#widget-identity .trampMessages").detach().appendTo('#trampMessages');
+      });
+      //]]>
+      </script>
+    </div>
+  </div>
+
+  <div id="wok-container">
+    <div id="tp-head">
+      <link rel="stylesheet" type="text/css" href="css/custom.css" media="all" />
+    </div>
+
+    <div id="tp-body">
+      <div class="container-fluid">
+        <div id="left" class="sidebar"></div>
+
+        <div id="right" class="r-sidebar">
+          <div>
+            <div id="widget-map">
+              <div class="widget" style="width: 260px; height: 350px;">
+                mappa
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div id="widget-e-rates">
+              <div class="widget" style="width: 260px; height: 72px;">
+                contenuti
+              </div>
+              <div class="widget" style="width: 260px; height: 72px;">
+                contenuti
+              </div>
+              <div class="widget" style="width: 260px; height: 72px;">
+                contenuti
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="main" class="r-content">
+          <div class="clear"></div>
+
+          <div>
+            <div id="widget-editable">
+              <div class="widget" style="height: 260px;">
+                contenuti
+              </div>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+
+          <div>
+            <div id="widget-rss">
+              <div class="widget" style="height: 260px;">
+                contenuti
+              </div>
+              <div class="widget" style="height: 260px;">
+                contenuti
+              </div>
+            </div>
+          </div>
+
+          <div class="clear"></div>
+
+          <div class="grid_9 alpha">
+            <div id="widget-byyou"></div>
+          </div>
+
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="tp-footer">
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+            <div class="linktitle">
+              Contacts
+            </div>
+
+            <ul class="linkbar">
+              <li><a href="#">Help</a></li>
+
+              <li><a href="#">Support</a></li>
+
+              <li><a href="#">FAQ</a></li>
+
+              <li><a href="#">Email</a></li>
+
+              <li><a href="#">+39 012 3456789</a></li>
+            </ul>
+          </div>
+
+          <div class="span4">
+            <div class="linktitle">
+              Istitutional
+            </div>
+
+            <ul class="linkbar">
+              <li><a href="#">Istituzione #1</a></li>
+
+              <li><a href="#">Istituzione #2</a></li>
+
+              <li><a href="#">Istituzione #3</a></li>
+
+              <li><a href="#">Istituzione #4</a></li>
+
+              <li><a href="#">Istituzione #5</a></li>
+
+              <li><a href="#">Istituzione #6</a></li>
+            </ul>
+          </div>
+
+          <div class="span4">
+            <div class="linktitle">
+              Company
+            </div>
+
+            <ul class="linkbar">
+              <li><a href="#">Company link #1</a></li>
+
+              <li><a href="#">Company Facebook</a></li>
+
+              <li><a href="#">Company Youtube</a></li>
+
+              <li><a href="#">Company Flickr</a></li>
+            </ul>
+          </div>
+
+          <div class="span4">
+            <div class="linktitle">
+              Share/Social
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clear hsep"></div>
+
+  <div id="wok-footer">
+    <div id="wok-footer-in">
+      <div class="footer-text" id="powered">
+        <span class="text">powered by <a href="http://www.trampolineup.com/">Trampoline
+        Portals</a></span>
+      </div>
+
+      <div class="footer-image"></div>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="clear hsep"></div>
+
+  <div id="trampPopup">
+    <div id="widget-identity-login"></div>
+  </div>
+
+  <div class="clear"></div>
+</body>
+</html>
