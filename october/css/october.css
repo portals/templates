@@ -352,7 +352,7 @@ form div.clearfix.error span.help-block>label{color:inherit;width:auto;}
 input.ppSubmit{height:auto;width:auto;}
 label.disabled{color:#808080;}
 .topbar{height:39px;}.topbar .showpwd{position:absolute;right:0;top:0;z-index:1;margin-top:1px;}
-#wok-header #trampTopbar{border-bottom:1px solid #e37723;-webkit-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);}
+#wok-header #trampTopbar{border-bottom:1px solid #e37723;-webkit-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);}#wok-header #trampTopbar .topbar-inner{height:100%;}
 #wok-header #trampMessages{position:fixed;top:40px;width:100%;z-index:1000;}#wok-header #trampMessages .alert-message{-webkit-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);}
 #wok-header.big .topbar{height:79px;}
 #wok-header.big #trampMessages{top:80px;}
