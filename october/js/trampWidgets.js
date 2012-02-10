@@ -40,6 +40,9 @@ var TrampWidgets = {
 	},
 	editable: {
 		url: "/ajax/editable"
+	},
+	userinfo: {
+		url: "/ajax/userinfo"
 	}
 };
 
@@ -94,7 +97,7 @@ function ajaxPost(url, target, parameters, options)
 				return;
 		}
 
-		$(this).ajaxForm({
+		var postOpts = {
 			// url: url+(act ? act : ""),
 			url: postAction,
 			target: postTarget,
@@ -109,10 +112,12 @@ function ajaxPost(url, target, parameters, options)
 			success: function(responseText, statusText, xhr, $form) {
 				var processPost = null;
 				var finalizePost = null;
+				var successPost = null;
 
 				if (options) {
 					processPost = options.processPost;
 					finalizePost = options.finalizePost;
+					successPost = options.success;
 				}
 
 				if (processPost && processPost(this) === false)
@@ -124,10 +129,18 @@ function ajaxPost(url, target, parameters, options)
 					this.id += "-in";
 				});
 
-				if (finalizePost)
-					finalizePost(this);
+				if (finalizePost && finalizePost(this) === false)
+					return;
+
+				if (successPost)
+					successPost(this, statusText, xhr);
 			}
-		});
+		};
+
+		if (options && options.beforeSubmit)
+			postOpts.beforeSubmit = options.beforeSubmit;
+
+		$(this).ajaxForm(postOpts);
 	});
 }
 
@@ -138,7 +151,7 @@ function ajaxRebaseLinks(data)
     h.each(function() {
         var href = $(this).attr('href');
         $(this).click(function() {
-            TrampWidget('/ajax'+href, /*'#widget-identity'*/ data, null, {success: ajaxRebaseLinks, processPost: ajaxRebaseLinks});
+            TrampWidget('/ajax'+href, /*'#widget-identity'*/ data, null, {success: ajaxRebaseLinks/*, processPost: ajaxRebaseLinks*/});
             return false;
         });
         $(this).attr("href", "#");
@@ -158,10 +171,10 @@ function TrampWidget(url, target, parameters, options)
 				this.id += "-in";
 			});
 
-			ajaxPost(url, /*(options && options.postTarget ) ? options.postTarget :*/ target, parameters, options);
+			if (options && options.success && options.success(this, status, xhr) === false)
+				return xhr;
 
-			if (options && options.success)
-				options.success(this, status, xhr);
+			ajaxPost(url, /*(options && options.postTarget ) ? options.postTarget :*/ target, parameters, options);
 
 			return xhr;
 		}
@@ -186,13 +199,17 @@ function TrampWidgetERates(target)
         success: ajaxRebaseLinks,
 		processPost: function (data) {
 				//var wi =$("#widget-identity");
-				$(data).addClass("modal fade hide")
-	                .modal({
-		                backdrop: "static",
-		                keyboard: true,
-		                show: true
-		            })
-	                .bind('hidden', function () {
+				if (!$(data).hasClass("modal"))
+					$(data)
+						.addClass("modal fade hide")
+		                .modal({
+			                backdrop: "static",
+			                keyboard: true,
+			                show: true
+			            });
+		        $('#e-rates .e-rate button.buy-e-rate').button('reset');
+				$(data)
+	                .one('hidden', function () {
 		                $(this).removeClass("modal fade hide").empty();
 		                /*
 		                if ($(this).data('mustReload')) {
@@ -202,10 +219,14 @@ function TrampWidgetERates(target)
 		                }
 		                */
 				    })
-				    .bind('shown', function () {
+				    .one('shown', function () {
 				        $(window).scrollTop(0);
 				    });
-			    ajaxRebaseLinks(data);
+		            //.find(":submit:not(.buy-e-rate)").click(function() {$(this).button('loading');});
+			    //ajaxRebaseLinks(data);
+			},
+	        beforeSubmit: function(arr, $form, options) {
+	            $form.find(":submit").button('loading');
 			}
 		});
 }
@@ -216,7 +237,8 @@ lat,
 lng,
 width,
 height,
-zoom
+zoom,
+kml
 */
 function TrampWidgetMap(target, options)
 {
@@ -226,6 +248,9 @@ function TrampWidgetMap(target, options)
 	q = trampAddQueryParam(q, "W", options.width);
 	q = trampAddQueryParam(q, "H", options.height);
 	q = trampAddQueryParam(q, "Zoom", options.zoom);
+
+	if (options.kml)
+		q = trampAddQueryParam(q, "Kml", encodeURIComponent(encodeURIComponent(options.kml)));
 
 	return TrampWidget(TrampWidgets.map.url, target, q);
 }
@@ -252,4 +277,142 @@ function TrampWidgetPlayme(target)
 function TrampWidgetEditable(target, options)
 {
 	return TrampWidget(TrampWidgets.editable.url, target, (options && options.edit ? "_action=edit" : null));
+}
+
+function TrampWidgetUserInfo(target)
+{
+
+// some utils for TrampWidgetUserInfo
+	function zeroPad(n)
+	{
+		return ("00"+n).slice(-2);
+	}
+	
+	function TimeFormat(target, inputtime)
+	{
+	
+		if (!inputtime)
+			return;
+	
+		if (+inputtime.Days)
+			$(target).find(".days").prepend(inputtime.Days);
+		else
+			$(target).find(".days").remove();
+	
+		if (+inputtime.Hours || +inputtime.Minutes) {
+			var hour=zeroPad(inputtime.Hours)+':'+zeroPad(inputtime.Minutes)+':'+zeroPad(inputtime.Seconds);
+			$(target).find(".secs").append(hour);
+		} else {
+			$(target).find(".secs").remove();
+		}
+
+		if (!$(target).find(".days, .secs").size())
+			$(target).remove();
+	}
+// ENDOF utils
+
+    $(document).ready(function() {
+        var juser=$("#widget-identity").data('jUser');
+
+        if (!juser)
+            return;
+
+        TrampWidget(TrampWidgets.userinfo.url, target, null, {
+        success: function(data) {
+	        if (juser.Username) {
+	            $(data).find('#widgetuserinfo').show();
+	            $(data).find('#username .value').append(juser.Username);
+	            if (juser.Name) $(data).find('#name .value').append(juser.Name).show();
+	            if (juser.Mobile) $(data).find('#mobile .value').append(juser.Mobile).show();
+	        }
+
+	        if (juser.CurSess) {
+	            $(data).find('#nocursession').remove();
+
+                $(data).find('#cur_start').each(function() {
+		            if (juser.CurSess.SessTime)
+			            $(this).find('.value').append(juser.CurSess.SessTime.Start);
+		            else
+			            $(this).remove();
+                });
+
+	            $(data).find('#cur_url .value').append(juser.CurSess.SUrl);
+
+                $(data).find('#cur_ip').each(function() {
+		            if (juser.CurSess.Ip)
+			            $(this).find('.value').append(juser.CurSess.Ip);
+		            else
+			            $(this).remove();
+                });
+
+                $(data).find('#cur_sess_time_left').each(function() {
+		            if (juser.CurSess.SessTimeLeft) {
+		                TimeFormat($(this).find('.value'), juser.CurSess.SessTimeLeft);
+		                $(this).show();
+	                } else
+		                $(this).remove();
+                });
+
+                $(data).find('#cur_sess_time').each(function() {
+	                if (juser.CurSess.SessTime) {
+			            TimeFormat($(this).find('.value'), juser.CurSess.SessTime);
+		                $(this).show();
+		            } else
+		                $(this).remove();
+                });
+
+	            $(data).find('#cursession').show();
+	        } else {
+	            $(data).find('#cursession').remove();
+	            $(data).find('#nocursession').show();
+	        }
+
+			if (juser.CursSess && juser.CursSess.length) {
+                $(data).find('#cursessions').show();
+                if (juser.CurSess) $(data).find('#othersess').show();
+		        for (x in juser.CursSess) {
+		            var cursess_elem;
+		            var tmpid;
+
+		            cursess_elem='#cursessions_elem_'+x;
+		            tmpid='cursessions_elem_'+(+x+1);
+					$(data).find(cursess_elem).clone().insertAfter(cursess_elem).attr('id',tmpid);
+					$(data).find(cursess_elem).show();
+
+		            tmpid=cursess_elem+' #curs_start .value';
+					$(data).find(tmpid).append(juser.CursSess[x].SessTime.Start);
+		            tmpid=cursess_elem+' #curs_url .value';
+		            $(data).find(tmpid).append(juser.CursSess[x].SUrl);
+		            tmpid=cursess_elem+' #curs_ip .value';
+		            $(data).find(tmpid).append(juser.CursSess[x].Ip);
+
+		            tmpid = cursess_elem+' #curs_sess_time .value';
+	                $(data).find(tmpid).each(function() {
+			            TimeFormat(this, juser.CursSess[x].SessTime);
+		            });
+		        }
+			} else {
+				$(data).find('#cursessions').remove();
+			}
+
+	        if (juser.LastSess) {
+	            $(data).find('#lastsession').show();
+
+	            $(data).find('#last_start .value').append(juser.LastSess.SessTime.Start);
+	            $(data).find('#last_stop .value').append(juser.LastSess.SessTime.Stop);
+	            $(data).find('#last_url .value').append(juser.LastSess.SUrl);
+	            $(data).find('#last_ip .value').append(juser.LastSess.Ip);
+                $(data).find('#last_sess_time .value').each(function() {
+		            TimeFormat(this, juser.LastSess.SessTime);
+	            });
+	        } else
+	            $(data).find('#lastsession').remove();
+
+		    $(data).parent().hover(function() {
+		        $(this).find(".showOnHover:not(:empty)").slideDown();
+		    }, function() {
+		        $(this).find(".showOnHover:not(:empty)").slideUp();
+		    });
+        }});
+	});
 }

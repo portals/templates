@@ -1,0 +1,38 @@
+.placejam {
+	background:url('../img/placejam_sprite.png') no-repeat top left;
+	display:inline-block;
+
+	background-position:-30px 0;
+	width: 124px;
+	height: 38px;
+}
+
+.placejam.logo {
+	background-position:0 0;
+	width: 30px;
+	height: 38px;
+}
+
+.placejam.logo_brand {
+	background-position:0 0;
+	width: 154px;
+	height: 38px;
+}
+
+.placejam.green {
+	background-position:-154px 0;
+	width: 76px;
+	height: 38px;
+}
+
+.placejam.red {
+	background-position:-230px 0;
+	width: 48px;
+	height: 38px;
+}
+
+.placejam.blue {
+	background-position:-278px 0;
+	width: 66px;
+	height: 38px;
+}

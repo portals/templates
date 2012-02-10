@@ -1,0 +1,19 @@
+
+.widget{background-color:#FFFFFF;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.3);box-shadow:0 1px 3px rgba(0, 0, 0, 0.3);color:#2E3034;margin-bottom:10px;padding:10px;overflow:hidden;}.widget:hover{-webkit-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);box-shadow:0 3px 7px rgba(0, 0, 0, 0.3);}
+#widget-e-rates .e-rate{position:relative;*zoom:1;}#widget-e-rates .e-rate:before,#widget-e-rates .e-rate:after{display:table;content:"";}
+#widget-e-rates .e-rate:after{clear:both;}
+#widget-e-rates .e-rate .price{float:left;font-weight:bold;position:absolute;bottom:10px;}#widget-e-rates .e-rate .price .integer{font-size:32px;}
+#widget-e-rates .e-rate .price .cents{font-size:20px;}
+#widget-e-rates .e-rate .title{font-weight:bold;padding-bottom:5px;font-size:16px;}
+#widget-e-rates .e-rate .descr{padding-bottom:15px;font-size:14px;}
+#widget-e-rates .e-rate .buy{float:right;text-align:right;}#widget-e-rates .e-rate .buy .verifyUserMsg{border:1px solid #e37723;float:right;padding:3px;text-align:left;width:175px;}
+#widget-e-rates .e-rate form{margin-bottom:0;}
+.rss_item>div{*zoom:1;}.rss_item>div:before,.rss_item>div:after{display:table;content:"";}
+.rss_item>div:after{clear:both;}
+.rss_item>div>div div{clear:left;}
+#widget-simple{overflow:hidden;}
+#map_and_infos{background-color:#ededed;font-family:"Open Sans",sans-serif;font-weight:400;font-size:12px;text-shadow:0px 1px 0px #ffffff;color:#76818c;width:100%;border-top:1px solid #cccccc;padding-top:10px;padding-bottom:10px;margin-bottom:10px;position:relative;-webkit-box-shadow:0px 0px 7px rgba(0, 0, 0, 0.3) inset;-moz-box-shadow:0px 0px 7px rgba(0, 0, 0, 0.3) inset;box-shadow:0px 0px 7px rgba(0, 0, 0, 0.3) inset;}#map_and_infos #widget-map{position:relative;overflow:hidden;padding:5px;}#map_and_infos #widget-map #map_canvas{-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.3);box-shadow:0 1px 3px rgba(0, 0, 0, 0.3);margin:5px auto;}
+#map_and_infos #infos{position:relative;overflow:hidden;position:absolute;right:20px;top:32px;background:#ffffff;background:rgba(255, 255, 255, 0.5);width:200px;-webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.3);box-shadow:0 1px 3px rgba(0, 0, 0, 0.3);}#map_and_infos #infos:hover{background:rgba(255, 255, 255, 0.9);}
+#map_and_infos #infos .info,#map_and_infos #infos p{width:100%;font-size:11px;margin:0;}
+#map_and_infos #infos h5{margin:9px 0 -5px;}
+#map_and_infos #infos h5+.info,#map_and_infos #infos p{margin:5px 0 0;}

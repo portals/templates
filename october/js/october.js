@@ -26,6 +26,31 @@ function profileOpen(tab) {
     if (!tab)
         tab = '/ajax/profile';
 
+    function rebaseLinks(data)
+    {
+        var h = data.id == "profile-container" ? $(data).find('a[target!="_blank"][ajax!="skip"]') : $(data).find('#profile-container a[target!="_blank"][ajax!="skip"]');
+        h.each(function() {
+            var href = $(this).attr('href');
+            $(this).click(function() {
+	            TrampWidget('/ajax'+href, '#profile-container', null, {
+                    processPost: processPost,
+                    success: rebaseLinks,
+			        beforeSubmit: function(arr, $form, options) {
+			            $form.find(":submit").button('loading');
+					}
+                });
+	            return false;
+            });
+            $(this).attr("href", "#");
+	        $(this).attr("onclick", "return false;");
+        });
+        /*
+        $(data).find("form").submit(function() {
+            $(this).find(":submit").button('loading');
+        });
+        */
+    }
+
     function processPost(data)
     {
         /*
@@ -46,20 +71,6 @@ function profileOpen(tab) {
         */
     }
 
-    function rebaseLinks(data)
-    {
-        var h = data.id == "profile-container" ? $(data).find('a[target!="_blank"][ajax!="skip"]') : $(data).find('#profile-container a[target!="_blank"][ajax!="skip"]');
-        h.each(function() {
-            var href = $(this).attr('href');
-            $(this).click(function() {
-	            TrampWidget('/ajax'+href, '#profile-container', null, {processPost: processPost, success: rebaseLinks});
-	            return false;
-            });
-            $(this).attr("href", "#");
-	        $(this).attr("onclick", "return false;");
-        });
-    }
-
     function loadSuccess(data)
     {
         $(data).find('#profile-menu ul li a').each(function() {
@@ -68,7 +79,13 @@ function profileOpen(tab) {
             $(this).click(function() {
                 $("#profile-menu ul li").removeClass("active");
                 $(this).parent().addClass("active");
-	            TrampWidget('/ajax'+href, '#profile-container', null, {processPost: processPost, success: rebaseLinks});
+	            TrampWidget('/ajax'+href, '#profile-container', null, {
+                    processPost: processPost,
+                    success: rebaseLinks,
+			        beforeSubmit: function(arr, $form, options) {
+			            $form.find(":submit").button('loading');
+					}
+                });
             });
             $(this).attr("href", "#");
 	        $(this).attr("onclick", "return false;");
@@ -79,7 +96,10 @@ function profileOpen(tab) {
     TrampWidget(tab, '#widget-identity', null, {
         postTarget: '#profile-container',
         processPost: processPost,
-        success: loadSuccess
+        success: loadSuccess,
+        beforeSubmit: function(arr, $form, options) {
+            $form.find(":submit").button('loading');
+		}
     });
 
     wi.addClass("modal fade hide");
@@ -90,19 +110,17 @@ function profileOpen(tab) {
     });
 
 
-	if (!wi.data('profileModalEvents')) {
-        wi.bind('hidden', function () {
-            $(this).removeClass("modal fade hide").empty();
-            if ($(this).data('mustReload')) {
-                //wi.modal('hide');
-                window.location.href = '/';
-                return false;
-            }
-	    }).bind('shown', function () {
-	        $(window).scrollTop(0);
-	    });
-	    wi.data('profileModalEvents', true);
-    }
+    wi.one('hidden', function () {
+        $(this).removeClass("modal fade hide").empty();
+        if ($(this).data('mustReload')) {
+            //wi.modal('hide');
+            window.location.href = '/';
+            return false;
+        }
+    }).one('shown', function () {
+        $(window).scrollTop(0);
+    });
+
     return false;
 }
 
@@ -114,7 +132,13 @@ function wiOpen(url, processPost) {
     var fl = wi.find('#form-login').detach();
     wi.data('form-login', fl);
 
-    TrampWidget(url, '#widget-identity', null, {success: ajaxRebaseLinks, processPost: processPost ? processPost : ajaxRebaseLinks});
+    TrampWidget(url, '#widget-identity', null, {
+        success: ajaxRebaseLinks,
+        processPost: processPost/* ? processPost : ajaxRebaseLinks*/,
+        beforeSubmit: function(arr, $form, options) {
+            $form.find(":submit").button('loading');
+		}
+    });
 
     wi.addClass("modal fade hide");
     var mwi = wi.modal({
@@ -125,24 +149,28 @@ function wiOpen(url, processPost) {
 
     tb.removeClass("big");
 
-	if (!wi.data('profileModalEvents')) {
-        wi.bind('hidden', function () {
-            if ($(this).data('mustReload')) {
-                window.location.href = '/';
-                return false;
-            }
-            tb.addClass("big");
-            $(this)
-                .removeClass("modal fade hide")
-                .empty()
-                .append(wi.data('form-login'))
-                .show()
-                .removeData('form-login');
-	    }).bind('shown', function () {
-	        $(window).scrollTop(0);
-	    });
-	    wi.data('profileModalEvents', true)
-    }
+    wi.one('hidden', function () {
+        if ($(this).data('mustReload')) {
+            window.location.href = '/';
+            return false;
+        }
+        tb.addClass("big");
+        $(this)
+            .removeClass("modal fade hide")
+            .empty()
+            .append(wi.data('form-login'))
+            .show()
+            .removeData('form-login');
+
+			$("meta[name='viewport']").attr("content", function(i, val) {
+				return val ? val.replace(/(, *)?maximum-scale *=[^,]*/, '$1maximum-scale=100.0') : null;
+			});
+    }).one('shown', function () {
+        $(window).scrollTop(0);
+		$("meta[name='viewport']").attr("content", function(i, val) {
+			return val ? val.replace(/(, *)?maximum-scale *=[^,]*/, '') + ", maximum-scale=1.0" : null;
+		});
+    });
 
     return false;
 }
@@ -152,7 +180,7 @@ function newUserOpen() {
         if ($(data).find('#new-user-page').length == 0) {
 			$('#widget-identity').data('mustReload', true);
         }
-        ajaxRebaseLinks(data)
+        //ajaxRebaseLinks(data)
     });
 
 }
@@ -162,18 +190,11 @@ function pwdLostOpen() {
 }
 
 function recoveryInfoDialog(type) {
-	var wi = $("#widget-identity").data('recoveryinfo', type ? type : 'question').data('recoveryskipped', false)
+	var wi = $("#widget-identity").data('recoveryinfo', type ? type : 'question').data('recoveryskipped', false);
 
 	if (wi.hasClass('modal')) {
 		return;
 	}
-
-	/*
-	wi.ajaxComplete(function(e, xhr, settings) {
-		console.log('Triggered ajaxComplete handler for '+settings.url+'. The result is ' +
-				xhr.status);
-	});
-	*/
 
 	wi.addClass("modal fade hide").modal({
         backdrop: "static",
@@ -190,7 +211,14 @@ function recoveryInfoDialog(type) {
 	    h.each(function() {
 	        var href = $(this).attr('href');
 	        $(this).click(function() {
-	            TrampWidget('/ajax'+href, /*'#widget-identity'*/ data, null, {success: myAjaxRebaseLinks, processPost: myAjaxRebaseLinks});
+	            TrampWidget('/ajax'+href, /*'#widget-identity'*/ data, null, {
+	                success: myAjaxRebaseLinks,
+	                processPost: myAjaxRebaseLinks,
+	                finalizePost: function() { return false; },
+			        beforeSubmit: function(arr, $form, options) {
+			            $form.find(":submit").button('loading');
+					}
+                });
 	            return false;
 	        });
 	        $(this).attr("href", "#");
@@ -200,27 +228,38 @@ function recoveryInfoDialog(type) {
 	}
 
 	if (myAjaxRebaseLinks('#widget-identity'))
-		ajaxPost(null, '#widget-identity', null, {success: myAjaxRebaseLinks, processPost: myAjaxRebaseLinks});
+		ajaxPost(null, '#widget-identity', null, {
+			success: myAjaxRebaseLinks,
+			processPost: myAjaxRebaseLinks,
+            finalizePost: function() { return false; },
+	        beforeSubmit: function(arr, $form, options) {
+	            $form.find(":submit").button('loading');
+			}
+		});
 
-	if (!wi.data('profileModalEvents')) {
-        wi.bind('hidden', function () {
-            $(this).empty();
-            //$(this).removeClass("modal fade hide").empty();
-            if ($(this).data('recoveryinfoIsLast')) {
-                console.log('isLast');
-	            window.location.href = '/ajax/activate/recoveryinfo?skip='+$(this).data('recoveryinfo');
-            } else if (!$(this).data('recoveryskipped')) {
-	            console.log('skip');
-			    TrampWidget('/ajax/activate/recoveryinfo?skip='+$(this).data('recoveryinfo'), '#widget-identity', null, {success: myAjaxRebaseLinks, processPost: myAjaxRebaseLinks});
-			    $(this).modal('show');
-	            $(this).data('recoveryskipped', true);
-            }
-            //$('#skipQuestion').click();
-            //window.location.href = '/ajax/activate/recoveryinfo?skip=question';
-            return false;
-	    }).bind('shown', function () {
-	        $(window).scrollTop(0);
-	    });
-	    wi.data('profileModalEvents', true)
-    }
+    wi.bind('hidden', function () {
+        $(this).empty();
+        //$(this).removeClass("modal fade hide").empty();
+        if ($(this).data('recoveryinfoIsLast')) {
+            // console.log('isLast');
+            window.location.href = '/activate/recoveryinfo?skip='+$(this).data('recoveryinfo');
+        } else if (!$(this).data('recoveryskipped')) {
+            // console.log('skip');
+		    TrampWidget('/ajax/activate/recoveryinfo?skip='+$(this).data('recoveryinfo'), '#widget-identity', null, {
+		        success: myAjaxRebaseLinks,
+		        processPost: myAjaxRebaseLinks,
+                finalizePost: function() { return false; },
+		        beforeSubmit: function(arr, $form, options) {
+		            $form.find(":submit").button('loading');
+				}
+	        });
+		    $(this).modal('show');
+            $(this).data('recoveryskipped', true);
+        }
+        //$('#skipQuestion').click();
+        //window.location.href = '/ajax/activate/recoveryinfo?skip=question';
+        return false;
+    }).one('shown', function () {
+        $(window).scrollTop(0);
+    });
 }

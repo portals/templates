@@ -3,174 +3,183 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head profile="http://www.w3.org/2005/10/profile">
-
   <title>ACME Wireless - Default Zone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="ROBOTS" content="INDEX, FOLLOW" />
-  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="icon" type="image/gif" href="img/favicon.ico" />
+
   <link rel="stylesheet" type="text/css" href="css/gcons.css" media="all" />
-  <link rel="stylesheet" type="text/css" href="css/flags24.css" media="all" />
-  <link rel="stylesheet" type="text/css" href="css/flavour24.css" media="all" /><!--october-->
-  <link rel="stylesheet" type="text/css" media="all" href="css/october.css" />
+  <link rel="stylesheet" type="text/css" href="css/placejam.css" media="all" />
+  <link rel="stylesheet" type="text/css" href="css/flavour24.css" media="all" />
+  <!--october-->
+  <link rel="stylesheet" type="text/css" media="all" href="css/october.min.css" />
+
   <script type="text/javascript" src="js/october.js"></script>
-  <script type="text/javascript" src="js/jquery-1.js"></script>
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/bootstrap-dropdown.js"></script>
-  <script type="text/javascript" src="js/bootstrap-alerts.js"></script>
-  <script type="text/javascript" src="js/bootstrap-modal.js"></script>
-  <script type="text/javascript" src="js/bootstrap-twipsy.js"></script>
-  <script type="text/javascript" src="js/bootstrap-popover.js"></script>
+  <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.8.17.custom.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/trampWidgets.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/widgets.css" media="all" />
 </head>
 
-<body>
+<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 1000);">
   <div id="wok-header">
-    <div class="topbar" id="trampTopbar">
-      <div class="topbar-inner">
-        <div id="trampLinks">
-          <h3><a href="#home">Placejam</a></h3>
-  
-          <ul class="nav">
-            <li><a href="#faq">faq</a></li>
-  
-            <li><a href="#help">help</a></li>
-  
-            <li><a href="#legal">legal</a></li>
-          </ul>
-        </div>
-  
-        <div id="actions">
-          <ul class="nav secondary-nav">
-            <li id="trampUser" class="dropdown" data-dropdown="dropdown">
-              <a class="dropdown-toggle" href="#">shawill@trmpln.com</a>
-  
-              <ul class="dropdown-menu">
-                <li class="userinfos">
-                  <ul>
-                    <li>Francesco Varano</li>
-  
-                    <li>shawill@trmpln.com</li>
-                  </ul>
-                </li>
-  
-                <li><a id="profile_lnk" href="#" onclick="profileOpen();return false;" name="profile_lnk">Profilo</a></li>
-  
-                <li><a href="#">Logout</a></li>
-              </ul>
-            </li>
-  
-            <li id="admin"></li>
-          </ul>
+    <div class="navbar navbar-fixed-top" id="trampTopbar">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a style="float: left; height: 40px;" href="#">
+            <span class="placejam logo_brand" ></span>
+            <span class="placejam green hide-on-old-mobile"></span>
+          </a>
+          <a style="float: left; height: 40px;" href="#"></a>
+
+          <a class="btn btn-navbar" data-toggle="collapse" data-target="#actions">
+            <i class="icon-user icon-white"></i>
+          </a>
+          <a class="btn btn-navbar" data-toggle="collapse" data-target="#trampLinks">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+
+          <div id="trampLinks" class="nav-collapse">
+            <ul class="nav">
+              <li><a href="#"><span class="label label-info">faq</span></a></li>
+              <li><a href="#"><span class="label label-success">help</span></a></li>
+
+              <li>
+                <ul id="trampLangSel" class="nav">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle"data-toggle="dropdown">
+                      <span class="label label-important">English
+                        <b class="caret"></b>
+                      </span>
+                    </a>
+
+                    <ul class="dropdown-menu center">
+                      <li><a href="#">italiano</a></li>
+                      <li><a href="#">english</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div id="actions" class="nav-collapse">
+            <ul class="nav pull-right">
+              <li id="trampUser" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown"
+                href="#">shawill@trmpln.com</a>
+
+                <ul class="dropdown-menu">
+                  <li class="userinfos">
+                    <ul class="unstyled">
+                      <li>shawill@trmpln.com</li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <a id="profile_lnk" href="#" onclick="$('.collapse').collapse('hide');return false;">
+                      Profile
+                    </a>
+                  </li>
+
+                  <li><a href="#">Logout</a></li>
+                </ul>
+              </li>
+
+              <li id="admin">
+                <a class="gcons configuration" href="#" title="Panel"></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div><!--div class="clear" /-->
-
-    <div id="trampMessages">
-      <script type="text/javascript">
-//<![CDATA[
-      $(document).ready(function() {
-        setTimeout('$("#trampMessages .alert-message.info .close").click()',1000)
-        setTimeout('$("#trampMessages .alert-message.success .close").click()',3000)
-
-        if ( $("#trampRadiusErrors .form-error").size() == 1 )
-            $("#genericError").show();
-      });
-      //]]>
-      </script>
-
-      <div class="trampMessages container">
-        <div class="form-msgs span12 offset2">
-          <!--div t:if="welcome" class="welcomemsg">${_("Benvenuto")}, ${$identity}!</div-->
-        </div>
-
-        <div class="form-errors span12 offset2"></div>
-      </div>
-    </div><!--div class="clear hsep" /-->
-
-    <div id="widget-identity" class="container">
-      <script type="text/javascript">
-//<![CDATA[
-      $(document).ready(function() {
-      $("#widget-identity .trampMessages").detach().appendTo('#trampMessages');
-      });
-      //]]>
-      </script>
     </div>
+
+    <div id="widget-identity" class="modal-noscroll"></div>
   </div>
 
   <div id="wok-container">
     <div id="tp-head">
+      <link rel="stylesheet" type="text/css" href="css/widgets.min.css" media="all" />
       <link rel="stylesheet" type="text/css" href="css/custom.css" media="all" />
     </div>
 
     <div id="tp-body">
-      <div class="container-fluid">
-        <div id="left" class="sidebar"></div>
+      <div id="map_and_infos">
+        <div class="container">
+          <div id="widget-map">
+            <p style="height: 260px;">esempio spazio mappa<p>
+          </div>
 
-        <div id="right" class="r-sidebar">
-          <div>
-            <div id="widget-map">
-              <div class="widget" style="width: 260px; height: 350px;">
-                mappa
+          <div class="alert alert-info alert-block fade in" id=
+          "infos">
+            <a class="close" href="#" data-dismiss="alert">×</a>
+
+            <div id="widget-userinfo">
+              <div id="widget-userinfo-in" xmlns=
+              "http://www.w3.org/1999/xhtml">
+                <div style="display: block;" id="widgetuserinfo"
+                class="hide">
+                  <h4 class="alert-heading">Informazioni</h4>
+                  (WidgetUserInfo)
+                  <div style="display: block;" id="nocursession" class="hide">
+                    <p>Nessuna informazione interessante, al
+                    momento ti trovi fuori dall'hotspot.</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
-          <div>
-            <div id="widget-e-rates">
-              <div class="widget" style="width: 260px; height: 72px;">
-                contenuti
-              </div>
-              <div class="widget" style="width: 260px; height: 72px;">
-                contenuti
-              </div>
-              <div class="widget" style="width: 260px; height: 72px;">
-                contenuti
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="main" class="r-content">
-          <div class="clear"></div>
-
-          <div>
-            <div id="widget-editable">
-              <div class="widget" style="height: 260px;">
-                contenuti
-              </div>
-            </div>
-          </div>
-
-          <div class="clear"></div>
-
-          <div>
-            <div id="widget-rss">
-              <div class="widget" style="height: 260px;">
-                contenuti
-              </div>
-              <div class="widget" style="height: 260px;">
-                contenuti
-              </div>
-            </div>
-          </div>
-
-          <div class="clear"></div>
-
-          <div class="grid_9 alpha">
-            <div id="widget-byyou"></div>
-          </div>
-
-          <div class="clear"></div>
         </div>
       </div>
+
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div id="main" class="span9">
+            <div>
+              <p style="height: 260px;">contenuti</p>
+            </div>
+
+            <div id="rss_items">
+              <div class="widget">
+                <p style="height: 260px;">contenuti</p>
+              </div>
+
+              <div class="widget">
+                <p style="height: 260px;">contenuti</p>
+              </div>
+
+              <div class="widget">
+                <p style="height: 260px;">contenuti</p>
+              </div>
+            </div>
+          </div>
+
+          <div id="right" class="span3">
+            <div class="widget">
+              <p style="height: 72px;">contenuti</p>
+            </div>
+            <div class="widget">
+              <p style="height: 72px;">contenuti</p>
+            </div>
+            <div class="widget">
+              <p style="height: 72px;">contenuti</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--script type="text/javascript" src="js/widgets.js"-->
+</script>
     </div>
 
     <div id="tp-footer">
       <div class="container">
         <div class="row">
-          <div class="span4">
+          <div class="span3">
             <div class="linktitle">
               Contacts
             </div>
@@ -188,7 +197,7 @@
             </ul>
           </div>
 
-          <div class="span4">
+          <div class="span3">
             <div class="linktitle">
               Istitutional
             </div>
@@ -208,7 +217,7 @@
             </ul>
           </div>
 
-          <div class="span4">
+          <div class="span3">
             <div class="linktitle">
               Company
             </div>
@@ -224,7 +233,7 @@
             </ul>
           </div>
 
-          <div class="span4">
+          <div class="span3">
             <div class="linktitle">
               Share/Social
             </div>
@@ -234,13 +243,21 @@
     </div>
   </div>
 
-  <div class="clear hsep"></div>
-
   <div id="wok-footer">
     <div id="wok-footer-in">
       <div class="footer-text" id="powered">
-        <span class="text">powered by <a href="http://www.trampolineup.com/">Trampoline
-        Portals</a></span>
+        <ul class="legal">
+          <li><a href="#">Chi siamo</a> <span>|</span></li>
+
+          <li><a href="#">Avvertenze legali</a> <span>|</span></li>
+
+          <li><a href="#">Condizioni di Servizio</a> <span>|</span></li>
+
+          <li><a href="#">Privacy Policy</a> <span>|</span></li>
+
+          <li>© 2011 Trampoline S.r.l. - tutti i diritti riservati</li>
+        </ul>
+        <span class="text">powered by <a href="http://www.trampolineup.com/">Trampoline Portals</a></span>
       </div>
 
       <div class="footer-image"></div>
@@ -249,12 +266,8 @@
     </div>
   </div>
 
-  <div class="clear hsep"></div>
-
   <div id="trampPopup">
     <div id="widget-identity-login"></div>
   </div>
-
-  <div class="clear"></div>
 </body>
 </html>
